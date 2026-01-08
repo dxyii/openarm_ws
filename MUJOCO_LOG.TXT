@@ -1,0 +1,6 @@
+Thu Jan  8 08:38:43 2026
+ERROR: Load model error: ParseXML: Error opening file '/home/zjc/openarm_ws/openarm_mujoco/v1/scene.xml': No such file or directory
+
+Thu Jan  8 08:39:56 2026
+ERROR: Load model error: ParseXML: Error opening file '/home/zjc/openarm_ws/openarm_mujoco/v1/scene.xml': No such file or directory
+
