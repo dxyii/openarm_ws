@@ -102,9 +102,9 @@ class GraspPlanner(Node):
         return grasp
     
     def plan_grasp_trajectory(self, grasp_pose):
-        """规划抓取轨迹"""
+        """规划抓取轨迹（使用TF直接获取从左臂基座到目标的变换，无需手动换算坐标系）"""
         trajectory = JointTrajectory()
-        trajectory.header.frame_id = 'openarm_body_link0'
+        trajectory.header.frame_id = 'openarm_body_link0'  # 使用底座中心为原点
         trajectory.header.stamp = self.get_clock().now().to_msg()
         
         # 设置关节名称（使用左臂的关节名称）
@@ -118,40 +118,113 @@ class GraspPlanner(Node):
             'openarm_left_joint7'
         ]
         
-        # 创建轨迹点 - 接近目标位置（基于目标位置计算）
-        # 注意：这是简化的示例轨迹，实际应该使用 MoveIt 规划服务计算
-        # 目标位置：x=0.433, y=-0.011, z=0.205
-        # 根据目标在 x=0.433（前方），y=-0.011（接近中心），z=0.205（较低）
-        # 使用更合理的关节角度来接近目标
+        # 从抓取姿态中获取目标位置（在 openarm_body_link0 坐标系下）
+        target_x = grasp_pose.grasp_pose.pose.position.x
+        target_y = grasp_pose.grasp_pose.pose.position.y
+        target_z = grasp_pose.grasp_pose.pose.position.z
+        
+        self.get_logger().info(f'目标位置（openarm_body_link0坐标系）: x={target_x:.3f}, y={target_y:.3f}, z={target_z:.3f}')
+        
+        # 使用TF直接查询从左臂基座到目标的变换（TF会自动处理坐标系转换）
+        try:
+            # 查询从左臂基座（openarm_left_link0）到目标（banana_target）的变换
+            # 注意：banana_target 是在 openarm_body_link0 坐标系下的，TF会自动转换
+            transform = self.tf_buffer.lookup_transform(
+                'openarm_left_link0',  # 左臂基座坐标系
+                'banana_target',        # 目标物体坐标系
+                rclpy.time.Time()       # 当前时间
+            )
+            
+            # 获取在左臂基座坐标系下的目标位置
+            rel_x = transform.transform.translation.x
+            rel_y = transform.transform.translation.y
+            rel_z = transform.transform.translation.z
+            
+            self.get_logger().info(f'目标位置（左臂基座坐标系，通过TF获取）: x={rel_x:.3f}, y={rel_y:.3f}, z={rel_z:.3f}')
+            
+        except tf2_ros.TransformException as ex:
+            self.get_logger().error(f'无法获取从左臂基座到目标的TF变换: {ex}')
+            self.get_logger().error('使用目标位置直接计算（可能不准确）')
+            # 如果TF查询失败，回退到直接计算（不推荐）
+            rel_x = target_x
+            rel_y = target_y
+            rel_z = target_z
+        
+        # 计算关节角度（基于在左臂基座坐标系下的目标位置）
+        joint_angles = self.compute_joint_angles_from_relative_position(rel_x, rel_y, rel_z)
+        
+        # 创建轨迹点1 - 接近位置（稍微高于目标）
         point1 = JointTrajectoryPoint()
-        # 针对目标位置 x=0.433 的关节角度（经验值，需要根据实际 IK 计算）
-        # joint1: 旋转朝向目标（约 0 度，因为 y 接近 0）
-        # joint2: 向下倾斜（负值）
-        # joint3: 向上弯曲（正值）
-        # joint4: 调整高度（负值）
-        point1.positions = [0.0, -0.4, 0.5, -0.3, 0.0, 0.4, 0.0]
-        # 设置速度以加快运动（单位：rad/s）
-        point1.velocities = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]  # 增加速度
+        approach_rel_z = rel_z + 0.1  # 在目标上方10cm（在左臂基座坐标系下）
+        approach_angles = self.compute_joint_angles_from_relative_position(rel_x, rel_y, approach_rel_z)
+        point1.positions = approach_angles
+        point1.velocities = [1.0] * 7  # 设置速度
         point1.accelerations = [0.0] * 7
         point1.time_from_start.sec = 0
-        point1.time_from_start.nanosec = 300000000  # 0.3秒（加快速度）
+        point1.time_from_start.nanosec = 500000000  # 0.5秒
         
-        # 创建轨迹点 - 抓取位置（更接近目标）
+        # 创建轨迹点2 - 抓取位置（目标位置）
         point2 = JointTrajectoryPoint()
-        # 更接近目标的关节角度（针对 x=0.433 的位置）
-        point2.positions = [0.05, -0.6, 0.7, -0.25, 0.0, 0.5, 0.0]
-        point2.velocities = [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]  # 增加速度
+        point2.positions = joint_angles
+        point2.velocities = [1.0] * 7  # 设置速度
         point2.accelerations = [0.0] * 7
         point2.time_from_start.sec = 0
-        point2.time_from_start.nanosec = 800000000  # 0.8秒（加快速度）
+        point2.time_from_start.nanosec = 1000000000  # 1.0秒
         
         # 将轨迹点添加到轨迹中
         trajectory.points.append(point1)
         trajectory.points.append(point2)
         
         self.get_logger().info(f'规划了包含 {len(trajectory.points)} 个轨迹点的抓取轨迹')
+        self.get_logger().info(f'轨迹点1（接近）: {[f"{p:.3f}" for p in point1.positions]}')
+        self.get_logger().info(f'轨迹点2（抓取）: {[f"{p:.3f}" for p in point2.positions]}')
         
         return trajectory
+    
+    def compute_joint_angles_from_relative_position(self, rel_x, rel_y, rel_z):
+        """根据目标位置（在左臂基座坐标系 openarm_left_link0 下）计算关节角度
+        这是简化的逆运动学计算，基于几何关系估算
+        
+        注意：输入位置应该已经在左臂基座坐标系下了（通过TF获取）
+        """
+        # 计算到目标的距离和角度（在左臂基座坐标系下）
+        r = np.sqrt(rel_x**2 + rel_y**2)  # 水平距离
+        d = np.sqrt(r**2 + rel_z**2)  # 3D距离
+        
+        self.get_logger().info(f'计算关节角度: rel_x={rel_x:.3f}, rel_y={rel_y:.3f}, rel_z={rel_z:.3f}, r={r:.3f}, d={d:.3f}')
+        
+        # 简化的关节角度计算（基于几何关系）
+        # joint1: 旋转朝向目标（atan2(rel_y, rel_x)）
+        # 注意：左臂的 joint1 有 -2.094396 的偏移（根据 URDF）
+        joint1 = np.arctan2(rel_y, rel_x) - 2.094396  # 减去左臂的偏移
+        
+        # joint2: 向下倾斜角度（基于目标高度和水平距离）
+        # 如果目标在基座下方，joint2应该为负值（向下）
+        joint2 = -np.arctan2(rel_z, r) - 0.2  # 减去一个基础角度
+        
+        # joint3: 向上弯曲（补偿joint2的倾斜）
+        joint3 = -joint2 * 0.7 + 0.4
+        
+        # joint4: 调整高度（进一步微调）
+        joint4 = -0.2
+        
+        # joint5, joint6, joint7: 末端姿态调整（简化处理，保持末端水平）
+        joint5 = 0.0
+        joint6 = 0.3
+        joint7 = 0.0
+        
+        # 限制关节角度在合理范围内
+        joint_angles = [
+            np.clip(joint1, -3.14, 3.14),      # joint1: ±180度（考虑偏移）
+            np.clip(joint2, -1.57, 0.0),      # joint2: -90度到0度
+            np.clip(joint3, 0.0, 1.57),       # joint3: 0度到90度
+            np.clip(joint4, -1.57, 0.0),      # joint4: -90度到0度
+            np.clip(joint5, -1.57, 1.57),     # joint5: ±90度
+            np.clip(joint6, -1.57, 1.57),     # joint6: ±90度
+            np.clip(joint7, -1.57, 1.57),     # joint7: ±90度
+        ]
+        
+        return joint_angles
     
     def execute_trajectory(self, trajectory):
         """通过 Action 接口执行轨迹"""
