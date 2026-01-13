@@ -1,0 +1,29 @@
+Starting >>> openarm_description
+Starting >>> openarm_bringup
+Starting >>> mujoco_ros2
+Starting >>> mujoco_ros2_control
+Starting >>> mujoco_ros2_control_demos
+Starting >>> openarm_mujoco_viewer
+Starting >>> openarm_vision
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'install-scripts' will not be supported in future versions. Please use the underscore name 'install_scripts' instead
+  warnings.warn(
+Finished <<< openarm_description [0.41s]
+Finished <<< openarm_bringup [0.42s]
+Finished <<< mujoco_ros2 [0.43s]
+Starting >>> openarm
+Starting >>> openarm_bimanual_moveit_config
+Finished <<< mujoco_ros2_control_demos [0.44s]
+Finished <<< openarm [0.07s]
+Finished <<< openarm_bimanual_moveit_config [0.08s]
+--- stderr: openarm_mujoco_viewer
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+---
+Finished <<< openarm_mujoco_viewer [0.94s]
+Finished <<< openarm_vision [0.95s]
+Finished <<< mujoco_ros2_control [3.53s]
+
+Summary: 9 packages finished [3.74s]
+  1 package had stderr output: openarm_mujoco_viewer
