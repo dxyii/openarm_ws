@@ -3,7 +3,8 @@
     <flag contact="enable" energy="enable"/>
 </option>
 
-  <include file="openarm_bimanual_cam_v2.xml"/>
+  <include file="openarm_bimanual_cam_v3.xml"/>
+  <!-- <include file="openarm_bimanual_cam_v2.xml"/> -->
   <!-- <include file="openarm_bimanual.xml"/> -->
   <!-- 修正点：去掉 "..."，明确指定重力和求解参数 -->
   <!-- timestep="0.002" 表示 2ms 一个步长，比默认的 1ms 快一倍 -->

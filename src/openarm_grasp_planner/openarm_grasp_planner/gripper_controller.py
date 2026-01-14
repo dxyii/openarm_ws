@@ -9,9 +9,9 @@ class GripperController(Node):
     def __init__(self):
         super().__init__('gripper_controller_node')
         
-        # 夹爪状态参数（根据 SRDF 定义：0.0=闭合，0.044=打开）
-        # 注意：位置值表示手指分开的距离，0.0 表示闭合，0.044 表示完全打开
-        self.gripper_open_position = 0.044  # 夹爪打开位置（手指分开）
+        # 夹爪状态参数（根据 SRDF 定义：0.0=闭合，0.060=更大打开）
+        # 注意：位置值表示手指分开的距离，0.0 表示闭合，0.060 表示完全打开
+        self.gripper_open_position = 0.060  # 夹爪打开位置（手指分开）
         self.gripper_closed_position = 0.0  # 夹爪闭合位置（手指靠拢）
         self.gripper_max_effort = 50.0  # 最大抓取力
         

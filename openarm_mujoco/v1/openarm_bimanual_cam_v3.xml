@@ -288,7 +288,7 @@
                             quat="1.0 0.0 0.0 0.0">
                             <!-- Ref设为0.02防穿模 -->
                             <joint name="openarm_left_finger_joint1" type="slide" ref="0.02"
-                              class="motor_finger" range="0.0 0.044" axis="0 -1 0" />
+                              class="motor_finger" range="0.0 0.060" axis="0 -1 0" />
                             <!-- 增大惯性防飞 -->
                             <inertial pos="0.0064528 -0.01702 0.0219685" quat="1.0 0.0 0.0 0.0"
                               mass="0.05"
@@ -307,7 +307,7 @@
                             quat="1.0 0.0 0.0 0.0">
                             <!-- Ref设为0.02防穿模 -->
                             <joint name="openarm_left_finger_joint2" type="slide" ref="0.02"
-                              class="motor_finger" range="0.0 0.044" axis="0 1 0" />
+                              class="motor_finger" range="0.0 0.060" axis="0 1 0" />
                             <!-- 增大惯性防飞 -->
                             <inertial pos="0.0064528 0.01702 0.0219685" quat="1.0 0.0 0.0 0.0"
                               mass="0.05"
@@ -539,6 +539,7 @@
   这些物理耦合与 ROS 2 的 JointTrajectoryController / Position Controller 冲突，
   是导致仿真卡死和 TF 报错的元凶。
   -->
+  <!-- 仍然保持 tendon 注释，避免与 ROS 控制重复耦合 -->
   <!--
   <tendon>
     <fixed name="split_right">
@@ -550,13 +551,15 @@
       <joint joint="openarm_left_finger_joint2" coef="0.5" />
     </fixed>
   </tendon>
+  -->
+
+  <!-- 启用手指之间的 equality 约束：finger_joint2 被动跟随 finger_joint1，保证两根手指同步开合 -->
   <equality>
     <joint joint1="openarm_right_finger_joint1" joint2="openarm_right_finger_joint2"
       solimp="0.95 0.99 0.001" solref="0.005 1" />
     <joint joint1="openarm_left_finger_joint1" joint2="openarm_left_finger_joint2"
       solimp="0.95 0.99 0.001" solref="0.005 1" />
   </equality>
-  -->
 
 
   <actuator>
@@ -569,9 +572,9 @@
     <position name="left_joint6_ctrl" joint="openarm_left_joint6" kp="300" kv="5" forcerange="-7 7"/>
     <position name="left_joint7_ctrl" joint="openarm_left_joint7" kp="300" kv="5" forcerange="-7 7"/>
     
-    <!-- 手指独立控制 -->
+    <!-- 手指控制：仅对 finger_joint1 施加力，finger_joint2 通过 equality 约束被动跟随 -->
     <position name="left_finger1_ctrl" joint="openarm_left_finger_joint1" class="motor_finger" />
-    <position name="left_finger2_ctrl" joint="openarm_left_finger_joint2" class="motor_finger" />
+    <!-- <position name="left_finger2_ctrl" joint="openarm_left_finger_joint2" class="motor_finger" /> -->
 
     <!-- 右臂 -->
     <position name="right_joint1_ctrl" joint="openarm_right_joint1" kp="800" kv="10" forcerange="-40 40"/>
@@ -582,9 +585,9 @@
     <position name="right_joint6_ctrl" joint="openarm_right_joint6" kp="300" kv="5" forcerange="-7 7"/>
     <position name="right_joint7_ctrl" joint="openarm_right_joint7" kp="300" kv="5" forcerange="-7 7"/>
     
-    <!-- 手指独立控制 -->
+    <!-- 手指控制：仅对 finger_joint1 施加力，finger_joint2 通过 equality 约束被动跟随 -->
     <position name="right_finger1_ctrl" joint="openarm_right_finger_joint1" class="motor_finger" />
-    <position name="right_finger2_ctrl" joint="openarm_right_finger_joint2" class="motor_finger" />
+    <!-- <position name="right_finger2_ctrl" joint="openarm_right_finger_joint2" class="motor_finger" /> -->
   </actuator>
 
   <contact>
