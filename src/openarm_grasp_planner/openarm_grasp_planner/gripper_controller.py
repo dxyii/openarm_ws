@@ -1,9 +1,11 @@
 import rclpy
 from rclpy.node import Node
 from rclpy.action import ActionClient
+from rclpy.callback_groups import ReentrantCallbackGroup
 from control_msgs.action import GripperCommand
 from std_srvs.srv import SetBool
 from sensor_msgs.msg import JointState
+import threading
 
 class GripperController(Node):
     def __init__(self):
@@ -15,8 +17,14 @@ class GripperController(Node):
         self.gripper_closed_position = 0.0  # 夹爪完全闭合位置（手指靠拢）
         # 夹爪抓取位置：不完全关闭，只关闭到能夹住香蕉的程度（约0.02-0.03米）
         # 香蕉直径约为0.04米，所以关闭到0.03米可以夹住香蕉
-        self.gripper_grasp_position = 0.03  # 夹爪抓取位置（能夹住香蕉但不完全关闭）
-        self.gripper_max_effort = 100.0  # 最大抓取力（增加以更好地夹住香蕉）
+        self.gripper_grasp_position = 0.045  # 夹爪抓取位置（能夹住香蕉但不完全关闭）
+        self.gripper_max_effort = 50.0  # 最大抓取力（增加以更好地夹住香蕉）
+        
+        # 分步夹紧参数
+        self.grasp_steps = 4  # 分3步夹紧
+        self.grasp_step_delay = 1.5 # 每步之间的延迟（秒），给物理仿真时间稳定
+        self.grasp_in_progress = False  # 标记是否正在执行分步夹紧
+        self.grasp_step_lock = threading.Lock()  # 保护分步夹紧状态
         
         # 创建Action客户端用于控制夹爪（双机械臂版本）
         self.left_gripper_client = ActionClient(
@@ -31,11 +39,13 @@ class GripperController(Node):
             '/right_gripper_controller/gripper_cmd'  # 使用正确的主题名称和命名空间
         )
         
-        # 创建服务用于控制夹爪开合
+        # 创建服务用于控制夹爪开合，使用可重入回调组以支持异步操作
+        self.callback_group = ReentrantCallbackGroup()
         self.gripper_service = self.create_service(
             SetBool, 
             'control_gripper', 
-            self.control_gripper_callback
+            self.control_gripper_callback,
+            callback_group=self.callback_group
         )
         
         # 订阅关节状态获取夹爪当前位置
@@ -75,27 +85,93 @@ class GripperController(Node):
         self.get_logger().info(f'收到夹爪控制请求: {action}')
         
         if request.data:
-            # 抓取：直接关闭到抓取位置（不完全关闭，能夹住香蕉）
-            self.get_logger().info(f'关闭夹手到抓取位置: {self.gripper_grasp_position:.4f}米')
-            left_result = self.send_gripper_command(
-                self.left_gripper_client, 
-                self.gripper_grasp_position, 
-                "左"
-            )
+            # 抓取：分三步夹紧，避免冲击力导致香蕉掉落
+            with self.grasp_step_lock:
+                if self.grasp_in_progress:
+                    self.get_logger().warn('分步夹紧正在进行中，忽略重复请求')
+                    response.success = False
+                    response.message = '分步夹紧正在进行中'
+                    return response
+                self.grasp_in_progress = True
+            
+            # 在后台线程中执行分步夹紧，避免阻塞服务回调
+            threading.Thread(
+                target=self.grasp_gradually_async,
+                args=(self.gripper_grasp_position,),
+                daemon=True
+            ).start()
+            
+            response.success = True
+            response.message = '分步夹紧已启动'
+            self.get_logger().info('分步夹紧已启动（异步执行）')
         else:
             # 打开：直接打开到完全打开位置
+            with self.grasp_step_lock:
+                self.grasp_in_progress = False  # 取消分步夹紧
+            
             left_result = self.send_gripper_command(self.left_gripper_client, self.gripper_open_position, "左")
-        
-        if left_result:
-            response.success = True
-            response.message = f'左夹爪已{action}'
-            self.get_logger().info(response.message)
-        else:
-            response.success = False
-            response.message = f'左夹爪{action}失败'
-            self.get_logger().error(response.message)
+            if left_result:
+                response.success = True
+                response.message = '左夹爪已打开'
+                self.get_logger().info('左夹爪已打开')
+            else:
+                response.success = False
+                response.message = '左夹爪打开失败'
+                self.get_logger().error('左夹爪打开失败')
         
         return response
+    
+    def grasp_gradually_async(self, target_position):
+        """异步分步夹紧，在后台线程中执行"""
+        try:
+            # 获取当前夹爪位置
+            current_position = self.current_left_gripper_position
+            if current_position is None:
+                # 如果不知道当前位置，假设从完全打开位置开始
+                current_position = self.gripper_open_position
+                self.get_logger().warn('无法获取左夹爪当前位置，假设从完全打开位置开始')
+            
+            # 计算每步的位置增量
+            position_diff = current_position - target_position
+            step_size = position_diff / self.grasp_steps
+            
+            self.get_logger().info(
+                f'开始分步夹紧: 从 {current_position:.4f} 到 {target_position:.4f}, '
+                f'分 {self.grasp_steps} 步，每步 {step_size:.4f}'
+            )
+            
+            # 分步夹紧
+            for step in range(1, self.grasp_steps + 1):
+                # 检查是否被取消
+                with self.grasp_step_lock:
+                    if not self.grasp_in_progress:
+                        self.get_logger().info('分步夹紧被取消')
+                        return
+                
+                step_position = current_position - (step_size * step)
+                self.get_logger().info(f'步骤 {step}/{self.grasp_steps}: 夹紧到位置 {step_position:.4f}')
+                
+                # 发送单步命令（异步，不等待完成）
+                self.send_gripper_command(
+                    self.left_gripper_client, 
+                    step_position, 
+                    "左"
+                )
+                
+                # 等待一段时间再执行下一步（除了最后一步）
+                if step < self.grasp_steps:
+                    import time
+                    time.sleep(self.grasp_step_delay)
+            
+            self.get_logger().info(f'分步夹紧完成，最终位置: {target_position:.4f}')
+            
+        except Exception as e:
+            self.get_logger().error(f'分步夹紧过程异常: {str(e)}')
+            import traceback
+            self.get_logger().error(traceback.format_exc())
+        finally:
+            with self.grasp_step_lock:
+                self.grasp_in_progress = False
     
     def send_gripper_command(self, client, position, arm_side):
         """发送夹爪控制命令（只控制左夹爪）"""
@@ -114,7 +190,6 @@ class GripperController(Node):
         
         # 发送请求（异步方式，不等待结果）
         self.get_logger().info(f'发送{arm_side}夹爪控制命令: 位置={position}, 最大力={self.gripper_max_effort}')
-        self.get_logger().info(f'注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）')
         try:
             # 发送 goal（异步，不等待结果）
             # 在服务回调中，我们不能阻塞等待 Action 的结果
