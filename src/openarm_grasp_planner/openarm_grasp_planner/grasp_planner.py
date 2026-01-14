@@ -85,6 +85,9 @@ class GraspPlanner(Node):
             self.lift_after_grasp_callback,
             callback_group=self.callback_group,
         )
+
+        # 抓取前预抬高度（先把机械臂抬到目标物体上方，再做抓取移动），单位: m
+        self.pre_grasp_lift_distance = 0.15
         
         self.get_logger().info('抓取规划模块已启动')
 
@@ -113,39 +116,63 @@ class GraspPlanner(Node):
         # 缓存本次抓取姿态，后续抬起会基于此姿态的 retreat 距离
         self.last_grasp = grasp
         
-        # 3. 异步调用 MoveIt 规划
-        self.get_logger().info('开始异步 MoveIt 规划...')
-        
-        # 重置事件
+        # 3. 先规划到目标物体上方的“预抓取”抬起姿态，再规划到最终抓取姿态
+        pre_grasp = copy.deepcopy(grasp)
+        pre_grasp.grasp_pose.pose.position.z += self.pre_grasp_lift_distance
+
+        # 3.1 规划并执行预抓取抬起
+        self.get_logger().info(
+            f'首先规划到预抓取姿态: z 提高 {self.pre_grasp_lift_distance:.3f} m'
+        )
         self.moveit_result_event.clear()
         self.moveit_result = None
-        
-        # 异步调用 MoveIt
-        future = self.plan_grasp_trajectory_async(grasp)
-        
-        # 等待规划完成（设置合理的超时时间）
+        self.plan_grasp_trajectory_async(pre_grasp)
+
         if not self.moveit_result_event.wait(timeout=600.0):
-            self.get_logger().error('MoveIt 规划超时')
+            self.get_logger().error('预抓取 MoveIt 规划超时')
             from moveit_msgs.msg import MoveItErrorCodes
             response.error_code.val = MoveItErrorCodes.TIMED_OUT
             return response
-        
+
         if self.moveit_result is None:
-            self.get_logger().error('MoveIt 规划失败，返回 None')
+            self.get_logger().error('预抓取 MoveIt 规划失败，返回 None')
             from moveit_msgs.msg import MoveItErrorCodes
             response.error_code.val = MoveItErrorCodes.FAILURE
             return response
-        
-        # 4. 执行轨迹
+
+        if not self.execute_trajectory(self.moveit_result):
+            self.get_logger().error('预抓取轨迹执行失败')
+            from moveit_msgs.msg import MoveItErrorCodes
+            response.error_code.val = MoveItErrorCodes.FAILURE
+            return response
+
+        # 3.2 再规划并执行最终抓取姿态
+        self.get_logger().info('预抓取成功，开始规划最终抓取姿态')
+        self.moveit_result_event.clear()
+        self.moveit_result = None
+        self.plan_grasp_trajectory_async(grasp)
+
+        if not self.moveit_result_event.wait(timeout=600.0):
+            self.get_logger().error('最终抓取 MoveIt 规划超时')
+            from moveit_msgs.msg import MoveItErrorCodes
+            response.error_code.val = MoveItErrorCodes.TIMED_OUT
+            return response
+
+        if self.moveit_result is None:
+            self.get_logger().error('最终抓取 MoveIt 规划失败，返回 None')
+            from moveit_msgs.msg import MoveItErrorCodes
+            response.error_code.val = MoveItErrorCodes.FAILURE
+            return response
+
         if self.execute_trajectory(self.moveit_result):
-            self.get_logger().info('轨迹执行成功')
+            self.get_logger().info('最终抓取轨迹执行成功')
         else:
-            self.get_logger().error('轨迹执行失败')
+            self.get_logger().error('最终抓取轨迹执行失败')
             from moveit_msgs.msg import MoveItErrorCodes
             response.error_code.val = MoveItErrorCodes.FAILURE
             return response
-        
-        # 5. 返回响应
+
+        # 4. 返回响应
         from moveit_msgs.msg import MoveItErrorCodes
         response.error_code.val = MoveItErrorCodes.SUCCESS
         response.grasps.append(grasp)

@@ -26,6 +26,10 @@ class BananaDetector(Node):
 
         self.depth = None
         self.k = None
+
+        # 将检测到的香蕉中心点在基座坐标系下沿 -Z 方向平移一点，
+        # 让 banana_target 更接近香蕉底部（单位：米，可根据模型半径微调）
+        self.banana_z_offset = 0.02
         
         # 黄色阈值 (根据环境光照微调)
         self.lower_yellow = np.array([20, 100, 100])
@@ -105,6 +109,10 @@ class BananaDetector(Node):
 
                     # 自动变换核心
                     pt_base = do_transform_point(pt_optical, trans).point
+
+                    # 将坐标在基座坐标系下沿 -Z 方向平移，
+                    # 把目标从香蕉几何中心下移到更接近底部的位置
+                    pt_base.z -= self.banana_z_offset
 
                     # 5. 输出结果 (直接使用，不加负号，不减高度)
                     self.get_logger().info(
