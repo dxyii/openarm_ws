@@ -116,10 +116,28 @@ class GripperController(Node):
                 try:
                     goal_handle = future.result()
                     if goal_handle and goal_handle.accepted:
-                        self.get_logger().info(f'{arm_side}夹爪控制命令已接受并执行')
-                        # 记录当前夹爪位置（如果可用）
-                        if arm_side == "左" and self.current_left_gripper_position is not None:
-                            self.get_logger().info(f'当前左夹爪位置: {self.current_left_gripper_position:.4f}')
+                        self.get_logger().info(f'{arm_side}夹爪控制命令已被控制器接受，开始执行...')
+
+                        # 在执行完成后再获取一次结果（完全异步，不阻塞 service 回调）
+                        result_future = goal_handle.get_result_async()
+
+                        def result_callback(result_future):
+                            try:
+                                result = result_future.result().result
+                                # Action 返回的最终位置
+                                self.get_logger().info(
+                                    f'{arm_side}夹爪动作执行完成，Action 返回位置: {result.position:.4f}'
+                                )
+
+                                # 结合 /joint_states 中记录的当前位置再打印一次（如果可用）
+                                if arm_side == "左" and self.current_left_gripper_position is not None:
+                                    self.get_logger().info(
+                                        f'执行完成后当前左夹爪 /joint_states 位置: {self.current_left_gripper_position:.4f}'
+                                    )
+                            except Exception as e:
+                                self.get_logger().error(f'{arm_side}夹爪结果回调处理异常: {str(e)}')
+
+                        result_future.add_done_callback(result_callback)
                     else:
                         self.get_logger().warn(f'{arm_side}夹爪控制命令被拒绝')
                 except Exception as e:

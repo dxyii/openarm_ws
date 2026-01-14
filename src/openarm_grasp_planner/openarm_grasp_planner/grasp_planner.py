@@ -407,10 +407,12 @@ class GraspPlanner(Node):
         orientation_constraint.header.stamp = self.get_clock().now().to_msg()
         orientation_constraint.link_name = "openarm_left_hand_tcp"
         orientation_constraint.orientation = grasp_pose.grasp_pose.pose.orientation
-        orientation_constraint.absolute_x_axis_tolerance = 0.2
-        orientation_constraint.absolute_y_axis_tolerance = 0.2
-        orientation_constraint.absolute_z_axis_tolerance = 0.2
-        orientation_constraint.weight = 1.0
+        # 收紧姿态容差，让手掌在整个运动过程中尽量保持
+        # 既定朝向（“平着、朝下”），避免明显倾斜
+        orientation_constraint.absolute_x_axis_tolerance = 0.05
+        orientation_constraint.absolute_y_axis_tolerance = 0.05
+        orientation_constraint.absolute_z_axis_tolerance = 0.05
+        orientation_constraint.weight = 2.0
         
         constraints.position_constraints = [position_constraint]
         constraints.orientation_constraints = [orientation_constraint]
