@@ -151,7 +151,7 @@ class GraspPlanner(Node):
         self.get_logger().info('预抓取成功，开始规划最终抓取姿态')
         self.moveit_result_event.clear()
         self.moveit_result = None
-        grasp.grasp_pose.pose.position.x -= 0.02
+        grasp.grasp_pose.pose.position.x -= 0.01
         self.plan_grasp_trajectory_async(grasp)
 
         if not self.moveit_result_event.wait(timeout=600.0):

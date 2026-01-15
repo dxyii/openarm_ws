@@ -1,160 +1,138 @@
-[INFO] [launch]: All log files can be found below /home/zjc/.ros/log/2026-01-14-13-32-08-675657-zjc-virtual-machine-11709
+[INFO] [launch]: All log files can be found below /home/zjc/.ros/log/2026-01-15-15-05-27-910157-zjc-virtual-machine-23807
 [INFO] [launch]: Default logging verbosity is set to INFO
-[INFO] [mujoco_ros2_control-1]: process started with pid [11727]
-[INFO] [robot_state_publisher-2]: process started with pid [11729]
-[INFO] [move_group-3]: process started with pid [11731]
-[INFO] [rviz2-4]: process started with pid [11733]
-[INFO] [openarm_bimanual_viewer-5]: process started with pid [11735]
+[INFO] [mujoco_ros2_control-1]: process started with pid [23821]
+[INFO] [robot_state_publisher-2]: process started with pid [23823]
+[INFO] [move_group-3]: process started with pid [23825]
+[INFO] [rviz2-4]: process started with pid [23827]
 [rviz2-4] Warning: Ignoring XDG_SESSION_TYPE=wayland on Gnome. Use QT_QPA_PLATFORM=wayland to run on Wayland anyway.
-[mujoco_ros2_control-1] [INFO] [1768368729.931058994] [mujoco_ros2_control_node]: Initializing mujoco_ros2_control node...
-[robot_state_publisher-2] [INFO] [1768368729.962219716] [robot_state_publisher]: got segment banana
-[robot_state_publisher-2] [INFO] [1768368729.962357101] [robot_state_publisher]: got segment d435_link
-[robot_state_publisher-2] [INFO] [1768368729.962362587] [robot_state_publisher]: got segment d435_optical_frame
-[robot_state_publisher-2] [INFO] [1768368729.962365606] [robot_state_publisher]: got segment openarm_body_link0
-[robot_state_publisher-2] [INFO] [1768368729.962368076] [robot_state_publisher]: got segment openarm_left_hand
-[robot_state_publisher-2] [INFO] [1768368729.962370439] [robot_state_publisher]: got segment openarm_left_hand_tcp
-[robot_state_publisher-2] [INFO] [1768368729.962372946] [robot_state_publisher]: got segment openarm_left_left_finger
-[robot_state_publisher-2] [INFO] [1768368729.962375293] [robot_state_publisher]: got segment openarm_left_link0
-[robot_state_publisher-2] [INFO] [1768368729.962377744] [robot_state_publisher]: got segment openarm_left_link1
-[robot_state_publisher-2] [INFO] [1768368729.962380045] [robot_state_publisher]: got segment openarm_left_link2
-[robot_state_publisher-2] [INFO] [1768368729.962382320] [robot_state_publisher]: got segment openarm_left_link3
-[robot_state_publisher-2] [INFO] [1768368729.962384577] [robot_state_publisher]: got segment openarm_left_link4
-[robot_state_publisher-2] [INFO] [1768368729.962386885] [robot_state_publisher]: got segment openarm_left_link5
-[robot_state_publisher-2] [INFO] [1768368729.962389095] [robot_state_publisher]: got segment openarm_left_link6
-[robot_state_publisher-2] [INFO] [1768368729.962391272] [robot_state_publisher]: got segment openarm_left_link7
-[robot_state_publisher-2] [INFO] [1768368729.962396684] [robot_state_publisher]: got segment openarm_left_right_finger
-[robot_state_publisher-2] [INFO] [1768368729.962399050] [robot_state_publisher]: got segment openarm_right_hand
-[robot_state_publisher-2] [INFO] [1768368729.962401212] [robot_state_publisher]: got segment openarm_right_hand_tcp
-[robot_state_publisher-2] [INFO] [1768368729.962403552] [robot_state_publisher]: got segment openarm_right_left_finger
-[robot_state_publisher-2] [INFO] [1768368729.962446708] [robot_state_publisher]: got segment openarm_right_link0
-[robot_state_publisher-2] [INFO] [1768368729.962449542] [robot_state_publisher]: got segment openarm_right_link1
-[robot_state_publisher-2] [INFO] [1768368729.962452007] [robot_state_publisher]: got segment openarm_right_link2
-[robot_state_publisher-2] [INFO] [1768368729.962454321] [robot_state_publisher]: got segment openarm_right_link3
-[robot_state_publisher-2] [INFO] [1768368729.962456689] [robot_state_publisher]: got segment openarm_right_link4
-[robot_state_publisher-2] [INFO] [1768368729.962458963] [robot_state_publisher]: got segment openarm_right_link5
-[robot_state_publisher-2] [INFO] [1768368729.962461232] [robot_state_publisher]: got segment openarm_right_link6
-[robot_state_publisher-2] [INFO] [1768368729.962463537] [robot_state_publisher]: got segment openarm_right_link7
-[robot_state_publisher-2] [INFO] [1768368729.962465841] [robot_state_publisher]: got segment openarm_right_right_finger
-[robot_state_publisher-2] [INFO] [1768368729.962468330] [robot_state_publisher]: got segment table
-[robot_state_publisher-2] [INFO] [1768368729.962470704] [robot_state_publisher]: got segment world
-[move_group-3] [INFO] [1768368729.985438576] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0244778 seconds
-[move_group-3] [INFO] [1768368729.985496196] [moveit_robot_model.robot_model]: Loading robot model 'openarm'...
-[move_group-3] [INFO] [1768368729.985501191] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
-[move_group-3] [WARN] [1768368730.070347017] [moveit_robot_model.robot_model]: Could not identify parent group for end-effector 'left_ee'
-[move_group-3] [WARN] [1768368730.070401797] [moveit_robot_model.robot_model]: Could not identify parent group for end-effector 'right_ee'
-[rviz2-4] [INFO] [1768368730.171404011] [rviz2]: Stereo is NOT SUPPORTED
-[rviz2-4] [INFO] [1768368730.171494635] [rviz2]: OpenGl version: 3.3 (GLSL 3.3)
-[rviz2-4] [INFO] [1768368730.188286766] [rviz2]: Stereo is NOT SUPPORTED
+[mujoco_ros2_control-1] [INFO] [1768460729.252025367] [mujoco_ros2_control_node]: Initializing mujoco_ros2_control node...
+[robot_state_publisher-2] [INFO] [1768460729.275731964] [robot_state_publisher]: got segment banana
+[robot_state_publisher-2] [INFO] [1768460729.276036593] [robot_state_publisher]: got segment d435_link
+[robot_state_publisher-2] [INFO] [1768460729.276044533] [robot_state_publisher]: got segment d435_optical_frame
+[robot_state_publisher-2] [INFO] [1768460729.276048009] [robot_state_publisher]: got segment openarm_body_link0
+[robot_state_publisher-2] [INFO] [1768460729.276050764] [robot_state_publisher]: got segment openarm_left_hand
+[robot_state_publisher-2] [INFO] [1768460729.276053342] [robot_state_publisher]: got segment openarm_left_hand_tcp
+[robot_state_publisher-2] [INFO] [1768460729.276056047] [robot_state_publisher]: got segment openarm_left_left_finger
+[robot_state_publisher-2] [INFO] [1768460729.276058677] [robot_state_publisher]: got segment openarm_left_link0
+[robot_state_publisher-2] [INFO] [1768460729.276061409] [robot_state_publisher]: got segment openarm_left_link1
+[robot_state_publisher-2] [INFO] [1768460729.276064057] [robot_state_publisher]: got segment openarm_left_link2
+[robot_state_publisher-2] [INFO] [1768460729.276066427] [robot_state_publisher]: got segment openarm_left_link3
+[robot_state_publisher-2] [INFO] [1768460729.276068918] [robot_state_publisher]: got segment openarm_left_link4
+[robot_state_publisher-2] [INFO] [1768460729.276071291] [robot_state_publisher]: got segment openarm_left_link5
+[robot_state_publisher-2] [INFO] [1768460729.276073797] [robot_state_publisher]: got segment openarm_left_link6
+[robot_state_publisher-2] [INFO] [1768460729.276076160] [robot_state_publisher]: got segment openarm_left_link7
+[robot_state_publisher-2] [INFO] [1768460729.276078643] [robot_state_publisher]: got segment openarm_left_right_finger
+[robot_state_publisher-2] [INFO] [1768460729.276081470] [robot_state_publisher]: got segment openarm_right_hand
+[robot_state_publisher-2] [INFO] [1768460729.276083813] [robot_state_publisher]: got segment openarm_right_hand_tcp
+[robot_state_publisher-2] [INFO] [1768460729.276086345] [robot_state_publisher]: got segment openarm_right_left_finger
+[robot_state_publisher-2] [INFO] [1768460729.276088850] [robot_state_publisher]: got segment openarm_right_link0
+[robot_state_publisher-2] [INFO] [1768460729.276091387] [robot_state_publisher]: got segment openarm_right_link1
+[robot_state_publisher-2] [INFO] [1768460729.276093884] [robot_state_publisher]: got segment openarm_right_link2
+[robot_state_publisher-2] [INFO] [1768460729.276096280] [robot_state_publisher]: got segment openarm_right_link3
+[robot_state_publisher-2] [INFO] [1768460729.276098745] [robot_state_publisher]: got segment openarm_right_link4
+[robot_state_publisher-2] [INFO] [1768460729.276101169] [robot_state_publisher]: got segment openarm_right_link5
+[robot_state_publisher-2] [INFO] [1768460729.276103588] [robot_state_publisher]: got segment openarm_right_link6
+[robot_state_publisher-2] [INFO] [1768460729.276105972] [robot_state_publisher]: got segment openarm_right_link7
+[robot_state_publisher-2] [INFO] [1768460729.276108384] [robot_state_publisher]: got segment openarm_right_right_finger
+[robot_state_publisher-2] [INFO] [1768460729.276110831] [robot_state_publisher]: got segment table
+[robot_state_publisher-2] [INFO] [1768460729.276113328] [robot_state_publisher]: got segment world
+[move_group-3] [INFO] [1768460729.281416780] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0229317 seconds
+[move_group-3] [INFO] [1768460729.281472506] [moveit_robot_model.robot_model]: Loading robot model 'openarm'...
+[move_group-3] [INFO] [1768460729.281477855] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[move_group-3] [WARN] [1768460729.369699002] [moveit_robot_model.robot_model]: Could not identify parent group for end-effector 'left_ee'
+[move_group-3] [WARN] [1768460729.369742921] [moveit_robot_model.robot_model]: Could not identify parent group for end-effector 'right_ee'
+[rviz2-4] [INFO] [1768460729.483956759] [rviz2]: Stereo is NOT SUPPORTED
+[rviz2-4] [INFO] [1768460729.484052500] [rviz2]: OpenGl version: 3.3 (GLSL 3.3)
+[rviz2-4] [INFO] [1768460729.500605410] [rviz2]: Stereo is NOT SUPPORTED
 [rviz2-4] Warning: class_loader.impl: SEVERE WARNING!!! A namespace collision has occurred with plugin factory for class rviz_default_plugins::displays::InteractiveMarkerDisplay. New factory will OVERWRITE existing one. This situation occurs when libraries containing plugins are directly linked against an executable (the one running right now generating this message). Please separate plugins out into their own library or just don't link against the library and use either class_loader::ClassLoader/MultiLibraryClassLoader to open.
 [rviz2-4]          at line 253 in /opt/ros/humble/include/class_loader/class_loader/class_loader_core.hpp
-[mujoco_ros2_control-1] [INFO] [1768368730.279628277] [mujoco_ros2_control_node]: Mujoco model has been successfully loaded !
-[mujoco_ros2_control-1] [INFO] [1768368730.307901993] [resource_manager]: Initialize hardware 'openarm_left_hardware_interface' 
-[mujoco_ros2_control-1] [INFO] [1768368730.308114546] [resource_manager]: Successful initialization of hardware 'openarm_left_hardware_interface'
-[mujoco_ros2_control-1] [INFO] [1768368730.308162576] [resource_manager]: 'configure' hardware 'openarm_left_hardware_interface' 
-[mujoco_ros2_control-1] [INFO] [1768368730.308167807] [resource_manager]: Successful 'configure' of hardware 'openarm_left_hardware_interface'
-[mujoco_ros2_control-1] [INFO] [1768368730.308189383] [resource_manager]: 'activate' hardware 'openarm_left_hardware_interface' 
-[mujoco_ros2_control-1] [INFO] [1768368730.308192525] [resource_manager]: Successful 'activate' of hardware 'openarm_left_hardware_interface'
-[move_group-3] [INFO] [1768368730.309729538] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
-[move_group-3] [INFO] [1768368730.309876721] [moveit.ros_planning_interface.moveit_cpp]: Listening to 'joint_states' for joint states
-[move_group-3] [INFO] [1768368730.310293088] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
-[move_group-3] [INFO] [1768368730.310513810] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects
-[move_group-3] [INFO] [1768368730.310524826] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
-[move_group-3] [INFO] [1768368730.310656147] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/planning_scene'
-[move_group-3] [INFO] [1768368730.310664448] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
-[move_group-3] [INFO] [1768368730.310779296] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'collision_object'
-[move_group-3] [INFO] [1768368730.310922507] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
-[move_group-3] [WARN] [1768368730.311026394] [moveit.ros.occupancy_map_monitor.middleware_handle]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
-[move_group-3] [ERROR] [1768368730.311074076] [moveit.ros.occupancy_map_monitor.middleware_handle]: Exception while loading octomap updater 'occupancy_map_monitor/DepthImageOctomapUpdater': According to the loaded plugin descriptions the class occupancy_map_monitor/DepthImageOctomapUpdater with base class type occupancy_map_monitor::OccupancyMapUpdater does not exist. Declared types are 
+[mujoco_ros2_control-1] [INFO] [1768460729.601315900] [mujoco_ros2_control_node]: Mujoco model has been successfully loaded !
+[move_group-3] [INFO] [1768460729.610599540] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[move_group-3] [INFO] [1768460729.610732063] [moveit.ros_planning_interface.moveit_cpp]: Listening to 'joint_states' for joint states
+[move_group-3] [INFO] [1768460729.611174724] [moveit_ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[move_group-3] [INFO] [1768460729.611471449] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects
+[move_group-3] [INFO] [1768460729.611482112] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[move_group-3] [INFO] [1768460729.611670688] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/planning_scene'
+[move_group-3] [INFO] [1768460729.611678973] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+[move_group-3] [INFO] [1768460729.611894366] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'collision_object'
+[move_group-3] [INFO] [1768460729.612123712] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+[move_group-3] [WARN] [1768460729.612222630] [moveit.ros.occupancy_map_monitor.middleware_handle]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
+[move_group-3] [ERROR] [1768460729.612273138] [moveit.ros.occupancy_map_monitor.middleware_handle]: Exception while loading octomap updater 'occupancy_map_monitor/DepthImageOctomapUpdater': According to the loaded plugin descriptions the class occupancy_map_monitor/DepthImageOctomapUpdater with base class type occupancy_map_monitor::OccupancyMapUpdater does not exist. Declared types are 
 [move_group-3] 
-[move_group-3] [ERROR] [1768368730.311082189] [moveit.ros.occupancy_map_monitor]: Failed to load sensor: `default_sensor` of type: `occupancy_map_monitor/DepthImageOctomapUpdater`
-[move_group-3] [ERROR] [1768368730.311088028] [moveit.ros.occupancy_map_monitor.middleware_handle]: Exception while loading octomap updater 'occupancy_map_monitor/DepthImageOctomapUpdater': According to the loaded plugin descriptions the class occupancy_map_monitor/DepthImageOctomapUpdater with base class type occupancy_map_monitor::OccupancyMapUpdater does not exist. Declared types are 
+[move_group-3] [ERROR] [1768460729.612281033] [moveit.ros.occupancy_map_monitor]: Failed to load sensor: `default_sensor` of type: `occupancy_map_monitor/DepthImageOctomapUpdater`
+[move_group-3] [ERROR] [1768460729.612286823] [moveit.ros.occupancy_map_monitor.middleware_handle]: Exception while loading octomap updater 'occupancy_map_monitor/DepthImageOctomapUpdater': According to the loaded plugin descriptions the class occupancy_map_monitor/DepthImageOctomapUpdater with base class type occupancy_map_monitor::OccupancyMapUpdater does not exist. Declared types are 
 [move_group-3] 
-[move_group-3] [ERROR] [1768368730.311090653] [moveit.ros.occupancy_map_monitor]: Failed to load sensor: `kinect_depthimage` of type: `occupancy_map_monitor/DepthImageOctomapUpdater`
-[mujoco_ros2_control-1] [INFO] [1768368730.328575201] [resource_manager]: Initialize hardware 'openarm_right_hardware_interface' 
-[mujoco_ros2_control-1] [INFO] [1768368730.328673019] [resource_manager]: Successful initialization of hardware 'openarm_right_hardware_interface'
-[mujoco_ros2_control-1] [INFO] [1768368730.328705848] [resource_manager]: 'configure' hardware 'openarm_right_hardware_interface' 
-[mujoco_ros2_control-1] [INFO] [1768368730.328710887] [resource_manager]: Successful 'configure' of hardware 'openarm_right_hardware_interface'
-[mujoco_ros2_control-1] [INFO] [1768368730.328719160] [resource_manager]: 'activate' hardware 'openarm_right_hardware_interface' 
-[mujoco_ros2_control-1] [INFO] [1768368730.328722350] [resource_manager]: Successful 'activate' of hardware 'openarm_right_hardware_interface'
-[mujoco_ros2_control-1] [INFO] [1768368730.329219273] [mujoco_ros2_control_node.mujoco_ros2_control]: Loading controller_manager
-[mujoco_ros2_control-1] [INFO] [1768368730.338933719] [mujoco_ros2_control_node]: Mujoco ros2 controller has been successfully initialized !
-[mujoco_ros2_control-1] [INFO] [1768368730.338979731] [mujoco_ros2_control_node]: Running MuJoCo in headless mode (no GUI rendering).
-[openarm_bimanual_viewer-5] [INFO] [1768368730.476385450] [openarm_bimanual_viewer]: Loaded MuJoCo model from /home/zjc/openarm_ws/openarm_mujoco/v1/scene.xml
-[openarm_bimanual_viewer-5] [INFO] [1768368730.476731893] [openarm_bimanual_viewer]: Available MuJoCo joints:
-[openarm_bimanual_viewer-5] [INFO] [1768368730.476905645] [openarm_bimanual_viewer]:   openarm_left_joint1 -> qpos[0]
-[openarm_bimanual_viewer-5] [INFO] [1768368730.477097484] [openarm_bimanual_viewer]:   openarm_left_joint2 -> qpos[1]
-[openarm_bimanual_viewer-5] [INFO] [1768368730.477406240] [openarm_bimanual_viewer]:   openarm_left_joint3 -> qpos[2]
-[openarm_bimanual_viewer-5] [INFO] [1768368730.477596620] [openarm_bimanual_viewer]:   openarm_left_joint4 -> qpos[3]
-[openarm_bimanual_viewer-5] [INFO] [1768368730.477928665] [openarm_bimanual_viewer]:   openarm_left_joint5 -> qpos[4]
-[openarm_bimanual_viewer-5] [INFO] [1768368730.478244345] [openarm_bimanual_viewer]:   openarm_left_joint6 -> qpos[5]
-[openarm_bimanual_viewer-5] [INFO] [1768368730.478428907] [openarm_bimanual_viewer]:   openarm_left_joint7 -> qpos[6]
-[openarm_bimanual_viewer-5] [INFO] [1768368730.478853717] [openarm_bimanual_viewer]:   openarm_left_finger_joint1 -> qpos[7]
-[openarm_bimanual_viewer-5] [INFO] [1768368730.479069750] [openarm_bimanual_viewer]:   openarm_left_finger_joint2 -> qpos[8]
-[openarm_bimanual_viewer-5] [INFO] [1768368730.479379613] [openarm_bimanual_viewer]:   openarm_right_joint1 -> qpos[9]
-[openarm_bimanual_viewer-5] [INFO] [1768368730.479573388] [openarm_bimanual_viewer]:   openarm_right_joint2 -> qpos[10]
-[openarm_bimanual_viewer-5] [INFO] [1768368730.479940260] [openarm_bimanual_viewer]:   openarm_right_joint3 -> qpos[11]
-[openarm_bimanual_viewer-5] [INFO] [1768368730.480275071] [openarm_bimanual_viewer]:   openarm_right_joint4 -> qpos[12]
-[openarm_bimanual_viewer-5] [INFO] [1768368730.480593886] [openarm_bimanual_viewer]:   openarm_right_joint5 -> qpos[13]
-[openarm_bimanual_viewer-5] [INFO] [1768368730.480799774] [openarm_bimanual_viewer]:   openarm_right_joint6 -> qpos[14]
-[openarm_bimanual_viewer-5] [INFO] [1768368730.480953568] [openarm_bimanual_viewer]:   openarm_right_joint7 -> qpos[15]
-[openarm_bimanual_viewer-5] [INFO] [1768368730.481100435] [openarm_bimanual_viewer]:   openarm_right_finger_joint1 -> qpos[16]
-[move_group-3] [INFO] [1768368730.481177774] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'chomp'
-[openarm_bimanual_viewer-5] [INFO] [1768368730.481280363] [openarm_bimanual_viewer]:   openarm_right_finger_joint2 -> qpos[17]
-[openarm_bimanual_viewer-5] [INFO] [1768368730.481447487] [openarm_bimanual_viewer]:   banana_joint -> qpos[18]
-[move_group-3] [INFO] [1768368730.483108436] [moveit.ros_planning.planning_pipeline]: Using planning interface 'CHOMP'
-[move_group-3] [INFO] [1768368730.484389849] [moveit_ros.add_time_optimal_parameterization]: Param 'chomp.path_tolerance' was not set. Using default value: 0.100000
-[move_group-3] [INFO] [1768368730.484417012] [moveit_ros.add_time_optimal_parameterization]: Param 'chomp.resample_dt' was not set. Using default value: 0.100000
-[move_group-3] [INFO] [1768368730.484420512] [moveit_ros.add_time_optimal_parameterization]: Param 'chomp.min_angle_change' was not set. Using default value: 0.001000
-[move_group-3] [INFO] [1768368730.484433834] [moveit_ros.fix_workspace_bounds]: Param 'chomp.default_workspace_bounds' was not set. Using default value: 10.000000
-[move_group-3] [INFO] [1768368730.484442849] [moveit_ros.fix_start_state_bounds]: Param 'chomp.start_state_max_bounds_error' was set to 0.100000
-[move_group-3] [INFO] [1768368730.484446258] [moveit_ros.fix_start_state_bounds]: Param 'chomp.start_state_max_dt' was not set. Using default value: 0.500000
-[move_group-3] [INFO] [1768368730.484471449] [moveit_ros.fix_start_state_collision]: Param 'chomp.start_state_max_dt' was not set. Using default value: 0.500000
-[move_group-3] [INFO] [1768368730.484474386] [moveit_ros.fix_start_state_collision]: Param 'chomp.jiggle_fraction' was set to 0.050000
-[move_group-3] [INFO] [1768368730.484477510] [moveit_ros.fix_start_state_collision]: Param 'chomp.max_sampling_attempts' was not set. Using default value: 100
-[move_group-3] [INFO] [1768368730.484483804] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
-[move_group-3] [INFO] [1768368730.484485874] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Resolve constraint frames to robot links'
-[move_group-3] [INFO] [1768368730.484487486] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
-[move_group-3] [INFO] [1768368730.484489142] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
-[move_group-3] [INFO] [1768368730.484490696] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
-[move_group-3] [INFO] [1768368730.484492255] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
-[move_group-3] [INFO] [1768368730.486479411] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'pilz_industrial_motion_planner'
-[move_group-3] [INFO] [1768368730.487798720] [moveit.pilz_industrial_motion_planner.joint_limits_aggregator]: Reading limits from namespace robot_description_planning
-[move_group-3] [INFO] [1768368730.499277225] [moveit.pilz_industrial_motion_planner]: Available plugins: pilz_industrial_motion_planner/PlanningContextLoaderCIRC pilz_industrial_motion_planner/PlanningContextLoaderLIN pilz_industrial_motion_planner/PlanningContextLoaderPTP 
-[move_group-3] [INFO] [1768368730.499309347] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderCIRC
-[move_group-3] [INFO] [1768368730.500083309] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [CIRC]
-[move_group-3] [INFO] [1768368730.500109713] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderLIN
-[move_group-3] [INFO] [1768368730.500780537] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [LIN]
-[move_group-3] [INFO] [1768368730.500819134] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderPTP
-[move_group-3] [INFO] [1768368730.501423374] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [PTP]
-[move_group-3] [INFO] [1768368730.501449826] [moveit.ros_planning.planning_pipeline]: Using planning interface 'Pilz Industrial Motion Planner'
-[move_group-3] [INFO] [1768368730.502695128] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'ompl'
-[move_group-3] [INFO] [1768368730.508974252] [moveit.ros_planning.planning_pipeline]: Using planning interface 'OMPL'
-[move_group-3] [INFO] [1768368730.509631848] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.path_tolerance' was not set. Using default value: 0.100000
-[move_group-3] [INFO] [1768368730.509652950] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.resample_dt' was not set. Using default value: 0.100000
-[move_group-3] [INFO] [1768368730.509656226] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.min_angle_change' was not set. Using default value: 0.001000
-[move_group-3] [INFO] [1768368730.509670050] [moveit_ros.fix_workspace_bounds]: Param 'ompl.default_workspace_bounds' was not set. Using default value: 10.000000
-[move_group-3] [INFO] [1768368730.509680822] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_bounds_error' was set to 0.100000
-[move_group-3] [INFO] [1768368730.509684375] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
-[move_group-3] [INFO] [1768368730.509691040] [moveit_ros.fix_start_state_collision]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
-[move_group-3] [INFO] [1768368730.509693666] [moveit_ros.fix_start_state_collision]: Param 'ompl.jiggle_fraction' was set to 0.050000
-[move_group-3] [INFO] [1768368730.509696116] [moveit_ros.fix_start_state_collision]: Param 'ompl.max_sampling_attempts' was not set. Using default value: 100
-[move_group-3] [INFO] [1768368730.509718908] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
-[move_group-3] [INFO] [1768368730.509721338] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Resolve constraint frames to robot links'
-[move_group-3] [INFO] [1768368730.509722995] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
-[move_group-3] [INFO] [1768368730.509724743] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
-[move_group-3] [INFO] [1768368730.509726401] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
-[move_group-3] [INFO] [1768368730.509728034] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
-[move_group-3] [INFO] [1768368730.549968046] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for left_joint_trajectory_controller
-[move_group-3] [INFO] [1768368730.551309727] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for right_joint_trajectory_controller
-[move_group-3] [INFO] [1768368730.551333958] [moveit.plugins.moveit_simple_controller_manager]: Max effort set to 0.0
-[move_group-3] [INFO] [1768368730.552847841] [moveit.plugins.moveit_simple_controller_manager]: Added GripperCommand controller for left_gripper_controller
-[move_group-3] [INFO] [1768368730.552874264] [moveit.plugins.moveit_simple_controller_manager]: Max effort set to 0.0
-[move_group-3] [INFO] [1768368730.554273976] [moveit.plugins.moveit_simple_controller_manager]: Added GripperCommand controller for right_gripper_controller
-[move_group-3] [INFO] [1768368730.554412969] [moveit.plugins.moveit_simple_controller_manager]: Returned 4 controllers in list
-[move_group-3] [INFO] [1768368730.554432412] [moveit.plugins.moveit_simple_controller_manager]: Returned 4 controllers in list
-[move_group-3] [INFO] [1768368730.554727457] [moveit_ros.trajectory_execution_manager]: Trajectory execution is managing controllers
-[move_group-3] [INFO] [1768368730.554738974] [move_group.move_group]: MoveGroup debug mode is ON
-[move_group-3] [INFO] [1768368730.568923859] [move_group.move_group]: 
+[move_group-3] [ERROR] [1768460729.612289393] [moveit.ros.occupancy_map_monitor]: Failed to load sensor: `kinect_depthimage` of type: `occupancy_map_monitor/DepthImageOctomapUpdater`
+[mujoco_ros2_control-1] [INFO] [1768460729.631401273] [resource_manager]: Initialize hardware 'openarm_left_hardware_interface' 
+[mujoco_ros2_control-1] [INFO] [1768460729.631564504] [resource_manager]: Successful initialization of hardware 'openarm_left_hardware_interface'
+[mujoco_ros2_control-1] [INFO] [1768460729.631608262] [resource_manager]: 'configure' hardware 'openarm_left_hardware_interface' 
+[mujoco_ros2_control-1] [INFO] [1768460729.631613860] [resource_manager]: Successful 'configure' of hardware 'openarm_left_hardware_interface'
+[mujoco_ros2_control-1] [INFO] [1768460729.631622840] [resource_manager]: 'activate' hardware 'openarm_left_hardware_interface' 
+[mujoco_ros2_control-1] [INFO] [1768460729.631625995] [resource_manager]: Successful 'activate' of hardware 'openarm_left_hardware_interface'
+[mujoco_ros2_control-1] [INFO] [1768460729.652136078] [resource_manager]: Initialize hardware 'openarm_right_hardware_interface' 
+[mujoco_ros2_control-1] [INFO] [1768460729.652253871] [resource_manager]: Successful initialization of hardware 'openarm_right_hardware_interface'
+[mujoco_ros2_control-1] [INFO] [1768460729.652288117] [resource_manager]: 'configure' hardware 'openarm_right_hardware_interface' 
+[mujoco_ros2_control-1] [INFO] [1768460729.652292779] [resource_manager]: Successful 'configure' of hardware 'openarm_right_hardware_interface'
+[mujoco_ros2_control-1] [INFO] [1768460729.652300904] [resource_manager]: 'activate' hardware 'openarm_right_hardware_interface' 
+[mujoco_ros2_control-1] [INFO] [1768460729.652304002] [resource_manager]: Successful 'activate' of hardware 'openarm_right_hardware_interface'
+[mujoco_ros2_control-1] [INFO] [1768460729.653057228] [mujoco_ros2_control_node.mujoco_ros2_control]: Loading controller_manager
+[mujoco_ros2_control-1] [INFO] [1768460729.664172516] [mujoco_ros2_control_node]: Mujoco ros2 controller has been successfully initialized !
+[move_group-3] [INFO] [1768460729.783502212] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'chomp'
+[move_group-3] [INFO] [1768460729.785608681] [moveit.ros_planning.planning_pipeline]: Using planning interface 'CHOMP'
+[move_group-3] [INFO] [1768460729.786886348] [moveit_ros.add_time_optimal_parameterization]: Param 'chomp.path_tolerance' was not set. Using default value: 0.100000
+[move_group-3] [INFO] [1768460729.786898301] [moveit_ros.add_time_optimal_parameterization]: Param 'chomp.resample_dt' was not set. Using default value: 0.100000
+[move_group-3] [INFO] [1768460729.786901231] [moveit_ros.add_time_optimal_parameterization]: Param 'chomp.min_angle_change' was not set. Using default value: 0.001000
+[move_group-3] [INFO] [1768460729.786913147] [moveit_ros.fix_workspace_bounds]: Param 'chomp.default_workspace_bounds' was not set. Using default value: 10.000000
+[move_group-3] [INFO] [1768460729.786921505] [moveit_ros.fix_start_state_bounds]: Param 'chomp.start_state_max_bounds_error' was set to 0.100000
+[move_group-3] [INFO] [1768460729.786924590] [moveit_ros.fix_start_state_bounds]: Param 'chomp.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-3] [INFO] [1768460729.786950771] [moveit_ros.fix_start_state_collision]: Param 'chomp.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-3] [INFO] [1768460729.786953973] [moveit_ros.fix_start_state_collision]: Param 'chomp.jiggle_fraction' was set to 0.050000
+[move_group-3] [INFO] [1768460729.786957572] [moveit_ros.fix_start_state_collision]: Param 'chomp.max_sampling_attempts' was not set. Using default value: 100
+[move_group-3] [INFO] [1768460729.786963925] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
+[move_group-3] [INFO] [1768460729.786966082] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Resolve constraint frames to robot links'
+[move_group-3] [INFO] [1768460729.786967802] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
+[move_group-3] [INFO] [1768460729.786969529] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+[move_group-3] [INFO] [1768460729.786971152] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[move_group-3] [INFO] [1768460729.786972718] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[move_group-3] [INFO] [1768460729.788806319] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'pilz_industrial_motion_planner'
+[move_group-3] [INFO] [1768460729.790102132] [moveit.pilz_industrial_motion_planner.joint_limits_aggregator]: Reading limits from namespace robot_description_planning
+[move_group-3] [INFO] [1768460729.795359072] [moveit.pilz_industrial_motion_planner]: Available plugins: pilz_industrial_motion_planner/PlanningContextLoaderCIRC pilz_industrial_motion_planner/PlanningContextLoaderLIN pilz_industrial_motion_planner/PlanningContextLoaderPTP 
+[move_group-3] [INFO] [1768460729.795427284] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderCIRC
+[move_group-3] [INFO] [1768460729.796256259] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [CIRC]
+[move_group-3] [INFO] [1768460729.796290374] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderLIN
+[move_group-3] [INFO] [1768460729.796808244] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [LIN]
+[move_group-3] [INFO] [1768460729.796831438] [moveit.pilz_industrial_motion_planner]: About to load: pilz_industrial_motion_planner/PlanningContextLoaderPTP
+[move_group-3] [INFO] [1768460729.797292250] [moveit.pilz_industrial_motion_planner]: Registered Algorithm [PTP]
+[move_group-3] [INFO] [1768460729.797324570] [moveit.ros_planning.planning_pipeline]: Using planning interface 'Pilz Industrial Motion Planner'
+[move_group-3] [INFO] [1768460729.797984396] [moveit.ros_planning_interface.moveit_cpp]: Loading planning pipeline 'ompl'
+[move_group-3] [INFO] [1768460729.805324509] [moveit.ros_planning.planning_pipeline]: Using planning interface 'OMPL'
+[move_group-3] [INFO] [1768460729.806130737] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.path_tolerance' was not set. Using default value: 0.100000
+[move_group-3] [INFO] [1768460729.806139008] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.resample_dt' was not set. Using default value: 0.100000
+[move_group-3] [INFO] [1768460729.806141684] [moveit_ros.add_time_optimal_parameterization]: Param 'ompl.min_angle_change' was not set. Using default value: 0.001000
+[move_group-3] [INFO] [1768460729.806154975] [moveit_ros.fix_workspace_bounds]: Param 'ompl.default_workspace_bounds' was not set. Using default value: 10.000000
+[move_group-3] [INFO] [1768460729.806166142] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_bounds_error' was set to 0.100000
+[move_group-3] [INFO] [1768460729.806169347] [moveit_ros.fix_start_state_bounds]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-3] [INFO] [1768460729.806176399] [moveit_ros.fix_start_state_collision]: Param 'ompl.start_state_max_dt' was not set. Using default value: 0.500000
+[move_group-3] [INFO] [1768460729.806179763] [moveit_ros.fix_start_state_collision]: Param 'ompl.jiggle_fraction' was set to 0.050000
+[move_group-3] [INFO] [1768460729.806182371] [moveit_ros.fix_start_state_collision]: Param 'ompl.max_sampling_attempts' was not set. Using default value: 100
+[move_group-3] [INFO] [1768460729.806204490] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Add Time Optimal Parameterization'
+[move_group-3] [INFO] [1768460729.806206911] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Resolve constraint frames to robot links'
+[move_group-3] [INFO] [1768460729.806208735] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Workspace Bounds'
+[move_group-3] [INFO] [1768460729.806210754] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Bounds'
+[move_group-3] [INFO] [1768460729.806212489] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State In Collision'
+[move_group-3] [INFO] [1768460729.806214221] [moveit.ros_planning.planning_pipeline]: Using planning request adapter 'Fix Start State Path Constraints'
+[mujoco_ros2_control-1] [INFO] [1768460729.832757690] [mujoco_ros2_control_node]: Mujoco rendering has been successfully initialized !
+[move_group-3] [INFO] [1768460729.837986516] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for left_joint_trajectory_controller
+[move_group-3] [INFO] [1768460729.839415170] [moveit.plugins.moveit_simple_controller_manager]: Added FollowJointTrajectory controller for right_joint_trajectory_controller
+[move_group-3] [INFO] [1768460729.839457851] [moveit.plugins.moveit_simple_controller_manager]: Max effort set to 0.0
+[move_group-3] [INFO] [1768460729.841375751] [moveit.plugins.moveit_simple_controller_manager]: Added GripperCommand controller for left_gripper_controller
+[move_group-3] [INFO] [1768460729.841417648] [moveit.plugins.moveit_simple_controller_manager]: Max effort set to 0.0
+[move_group-3] [INFO] [1768460729.842614040] [moveit.plugins.moveit_simple_controller_manager]: Added GripperCommand controller for right_gripper_controller
+[move_group-3] [INFO] [1768460729.843003121] [moveit.plugins.moveit_simple_controller_manager]: Returned 4 controllers in list
+[move_group-3] [INFO] [1768460729.843045182] [moveit.plugins.moveit_simple_controller_manager]: Returned 4 controllers in list
+[move_group-3] [INFO] [1768460729.843561421] [moveit_ros.trajectory_execution_manager]: Trajectory execution is managing controllers
+[move_group-3] [INFO] [1768460729.843593367] [move_group.move_group]: MoveGroup debug mode is ON
+[move_group-3] [INFO] [1768460729.856055340] [move_group.move_group]: 
 [move_group-3] 
 [move_group-3] ********************************************************
 [move_group-3] * MoveGroup using: 
@@ -170,8 +148,8 @@
 [move_group-3] *     - StateValidationService
 [move_group-3] ********************************************************
 [move_group-3] 
-[move_group-3] [INFO] [1768368730.568977374] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context using planning plugin ompl_interface/OMPLPlanner
-[move_group-3] [INFO] [1768368730.568984218] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context initialization complete
+[move_group-3] [INFO] [1768460729.856111184] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context using planning plugin ompl_interface/OMPLPlanner
+[move_group-3] [INFO] [1768460729.856117610] [moveit_move_group_capabilities_base.move_group_context]: MoveGroup context initialization complete
 [move_group-3] [96mLoading 'move_group/ApplyPlanningSceneService'...
 [move_group-3] [0m[96mLoading 'move_group/ClearOctomapService'...
 [move_group-3] [0m[96mLoading 'move_group/MoveGroupCartesianPathService'...
@@ -185,200 +163,1031 @@
 [move_group-3] [0m[92m
 [move_group-3] You can start planning now!
 [move_group-3] 
-[INFO] [spawner-6]: process started with pid [11820]
-[spawner-6] [INFO] [1768368732.066679225] [spawner_joint_state_broadcaster]: waiting for service /controller_manager/list_controllers to become available...
-[INFO] [spawner-7]: process started with pid [11831]
-[mujoco_ros2_control-1] [INFO] [1768368733.071316413] [controller_manager]: Loading controller 'joint_state_broadcaster'
-[spawner-6] [INFO] [1768368733.182310307] [spawner_joint_state_broadcaster]: [94mLoaded [1mjoint_state_broadcaster[0m
-[mujoco_ros2_control-1] [INFO] [1768368733.184099987] [controller_manager]: Configuring controller 'joint_state_broadcaster'
-[mujoco_ros2_control-1] [INFO] [1768368733.184237592] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
-[rviz2-4] [ERROR] [1768368733.267887031] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
-[rviz2-4] [INFO] [1768368733.295188485] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
-[rviz2-4] [INFO] [1768368733.402360710] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0545658 seconds
-[rviz2-4] [INFO] [1768368733.402419837] [moveit_robot_model.robot_model]: Loading robot model 'openarm'...
-[rviz2-4] [INFO] [1768368733.402430315] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
-[INFO] [spawner-8]: process started with pid [11847]
-[rviz2-4] [WARN] [1768368733.485374030] [moveit_robot_model.robot_model]: Could not identify parent group for end-effector 'left_ee'
-[rviz2-4] [WARN] [1768368733.485415414] [moveit_robot_model.robot_model]: Could not identify parent group for end-effector 'right_ee'
-[spawner-8] [INFO] [1768368733.565408709] [spawner_left_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
-[spawner-6] [INFO] [1768368733.682148789] [spawner_joint_state_broadcaster]: [92mConfigured and activated [1mjoint_state_broadcaster[0m
-[mujoco_ros2_control-1] [INFO] [1768368733.683615167] [controller_manager]: Loading controller 'left_joint_trajectory_controller'
-[mujoco_ros2_control-1] [WARN] [1768368733.696006215] [left_joint_trajectory_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
-[rviz2-4] [INFO] [1768368733.752922314] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
-[rviz2-4] [INFO] [1768368733.753600023] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
-[INFO] [spawner-6]: process has finished cleanly [pid 11820]
-[spawner-7] [INFO] [1768368733.856779856] [spawner_left_joint_trajectory_controller]: [94mLoaded [1mleft_joint_trajectory_controller[0m
-[mujoco_ros2_control-1] [INFO] [1768368733.858200882] [controller_manager]: Configuring controller 'left_joint_trajectory_controller'
-[mujoco_ros2_control-1] [INFO] [1768368733.858334508] [left_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
-[mujoco_ros2_control-1] [INFO] [1768368733.858346281] [left_joint_trajectory_controller]: Command interfaces are [position] and state interfaces are [position].
-[mujoco_ros2_control-1] [INFO] [1768368733.858363152] [left_joint_trajectory_controller]: Using 'splines' interpolation method.
-[mujoco_ros2_control-1] [INFO] [1768368733.858957855] [left_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
-[mujoco_ros2_control-1] [INFO] [1768368733.862123012] [left_joint_trajectory_controller]: Action status changes will be monitored at 50.00 Hz.
-[rviz2-4] [ERROR] [1768368733.931038776] [rviz2]: Error retrieving file [file:///home/ros/openarm_ws/openarm_mujoco/v1/meshes/visual/cam/d435_0.stl]: Couldn't open file /home/ros/openarm_ws/openarm_mujoco/v1/meshes/visual/cam/d435_0.stl
-[rviz2-4] [ERROR] [1768368733.931122756] [rviz2]: Error retrieving file [file:///home/ros/openarm_ws/openarm_mujoco/v1/meshes/visual/cam/d435_0.stl]: Couldn't open file /home/ros/openarm_ws/openarm_mujoco/v1/meshes/visual/cam/d435_0.stl
-[mujoco_ros2_control-1] [INFO] [1768368734.013528879] [controller_manager]: Loading controller 'left_gripper_controller'
-[spawner-8] [INFO] [1768368734.181252423] [spawner_left_gripper_controller]: [94mLoaded [1mleft_gripper_controller[0m
-[rviz2-4] [ERROR] [1768368734.237787002] [rviz2]: The link openarm_left_left_finger is has unrealistic inertia, so the equivalent inertia box will not be shown.
+[INFO] [spawner-5]: process started with pid [23895]
+[mujoco_ros2_control-1] [INFO] [1768460731.711771213] [controller_manager]: Loading controller 'joint_state_broadcaster'
+[spawner-5] [INFO] [1768460731.730349783] [spawner_joint_state_broadcaster]: [94mLoaded [1mjoint_state_broadcaster[0m
+[mujoco_ros2_control-1] [INFO] [1768460731.813586517] [controller_manager]: Configuring controller 'joint_state_broadcaster'
+[mujoco_ros2_control-1] [INFO] [1768460731.813688375] [joint_state_broadcaster]: 'joints' or 'interfaces' parameter is empty. All available state interfaces will be published
+[spawner-5] [INFO] [1768460731.822128955] [spawner_joint_state_broadcaster]: [92mConfigured and activated [1mjoint_state_broadcaster[0m
+[INFO] [spawner-5]: process has finished cleanly [pid 23895]
+[INFO] [spawner-6]: process started with pid [23909]
+[mujoco_ros2_control-1] [INFO] [1768460732.373873800] [controller_manager]: Loading controller 'left_joint_trajectory_controller'
+[mujoco_ros2_control-1] [WARN] [1768460732.384396367] [left_joint_trajectory_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[spawner-6] [INFO] [1768460732.395169067] [spawner_left_joint_trajectory_controller]: [94mLoaded [1mleft_joint_trajectory_controller[0m
+[mujoco_ros2_control-1] [INFO] [1768460732.396828949] [controller_manager]: Configuring controller 'left_joint_trajectory_controller'
+[mujoco_ros2_control-1] [INFO] [1768460732.397003290] [left_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[mujoco_ros2_control-1] [INFO] [1768460732.397017961] [left_joint_trajectory_controller]: Command interfaces are [position] and state interfaces are [position].
+[mujoco_ros2_control-1] [INFO] [1768460732.397035859] [left_joint_trajectory_controller]: Using 'splines' interpolation method.
+[mujoco_ros2_control-1] [INFO] [1768460732.397663942] [left_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[mujoco_ros2_control-1] [INFO] [1768460732.399382033] [left_joint_trajectory_controller]: Action status changes will be monitored at 50.00 Hz.
+[spawner-6] [INFO] [1768460732.413161168] [spawner_left_joint_trajectory_controller]: [92mConfigured and activated [1mleft_joint_trajectory_controller[0m
+[mujoco_ros2_control-1] [INFO] [1768460732.414622229] [controller_manager]: Loading controller 'right_joint_trajectory_controller'
+[mujoco_ros2_control-1] [WARN] [1768460732.428205416] [right_joint_trajectory_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
+[spawner-6] [INFO] [1768460732.445385511] [spawner_left_joint_trajectory_controller]: [94mLoaded [1mright_joint_trajectory_controller[0m
+[mujoco_ros2_control-1] [INFO] [1768460732.445756295] [controller_manager]: Configuring controller 'right_joint_trajectory_controller'
+[mujoco_ros2_control-1] [INFO] [1768460732.445876214] [right_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
+[mujoco_ros2_control-1] [INFO] [1768460732.445888653] [right_joint_trajectory_controller]: Command interfaces are [position] and state interfaces are [position].
+[mujoco_ros2_control-1] [INFO] [1768460732.445899301] [right_joint_trajectory_controller]: Using 'splines' interpolation method.
+[mujoco_ros2_control-1] [INFO] [1768460732.446383454] [right_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
+[mujoco_ros2_control-1] [INFO] [1768460732.448175852] [right_joint_trajectory_controller]: Action status changes will be monitored at 50.00 Hz.
+[spawner-6] [INFO] [1768460732.455334769] [spawner_left_joint_trajectory_controller]: [92mConfigured and activated [1mright_joint_trajectory_controller[0m
+[rviz2-4] [ERROR] [1768460732.588200407] [moveit_ros_visualization.motion_planning_frame]: Action server: /recognize_objects not available
+[INFO] [spawner-6]: process has finished cleanly [pid 23909]
+[rviz2-4] [INFO] [1768460732.599871189] [moveit_ros_visualization.motion_planning_frame]: MoveGroup namespace changed: / -> . Reloading params.
+[INFO] [spawner-7]: process started with pid [23928]
+[rviz2-4] [INFO] [1768460732.812967826] [moveit_rdf_loader.rdf_loader]: Loaded robot model in 0.0629906 seconds
+[rviz2-4] [INFO] [1768460732.813027005] [moveit_robot_model.robot_model]: Loading robot model 'openarm'...
+[rviz2-4] [INFO] [1768460732.813036560] [moveit_robot_model.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[spawner-7] [INFO] [1768460732.893516125] [spawner_left_gripper_controller]: waiting for service /controller_manager/list_controllers to become available...
+[rviz2-4] [WARN] [1768460732.901390989] [moveit_robot_model.robot_model]: Could not identify parent group for end-effector 'left_ee'
+[rviz2-4] [WARN] [1768460732.901481603] [moveit_robot_model.robot_model]: Could not identify parent group for end-effector 'right_ee'
+[rviz2-4] [INFO] [1768460733.166686262] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Starting planning scene monitor
+[rviz2-4] [INFO] [1768460733.167231213] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Listening to '/monitored_planning_scene'
+[rviz2-4] [ERROR] [1768460733.346813957] [rviz2]: Error retrieving file [file:///home/ros/openarm_ws/openarm_mujoco/v1/meshes/visual/cam/d435_0.stl]: Couldn't open file /home/ros/openarm_ws/openarm_mujoco/v1/meshes/visual/cam/d435_0.stl
+[rviz2-4] [ERROR] [1768460733.346932059] [rviz2]: Error retrieving file [file:///home/ros/openarm_ws/openarm_mujoco/v1/meshes/visual/cam/d435_0.stl]: Couldn't open file /home/ros/openarm_ws/openarm_mujoco/v1/meshes/visual/cam/d435_0.stl
+[mujoco_ros2_control-1] [INFO] [1768460733.397282765] [controller_manager]: Loading controller 'left_gripper_controller'
+[spawner-7] [INFO] [1768460733.410500083] [spawner_left_gripper_controller]: [94mLoaded [1mleft_gripper_controller[0m
+[mujoco_ros2_control-1] [INFO] [1768460733.412099752] [controller_manager]: Configuring controller 'left_gripper_controller'
+[mujoco_ros2_control-1] [INFO] [1768460733.412242171] [left_gripper_controller]: Action status changes will be monitored at 20.000000 Hz.
+[spawner-7] [INFO] [1768460733.421715124] [spawner_left_gripper_controller]: [92mConfigured and activated [1mleft_gripper_controller[0m
+[mujoco_ros2_control-1] [INFO] [1768460733.423010885] [controller_manager]: Loading controller 'right_gripper_controller'
+[spawner-7] [INFO] [1768460733.458054686] [spawner_left_gripper_controller]: [94mLoaded [1mright_gripper_controller[0m
+[mujoco_ros2_control-1] [INFO] [1768460733.458508311] [controller_manager]: Configuring controller 'right_gripper_controller'
+[mujoco_ros2_control-1] [INFO] [1768460733.458557136] [right_gripper_controller]: Action status changes will be monitored at 20.000000 Hz.
+[spawner-7] [INFO] [1768460733.467632835] [spawner_left_gripper_controller]: [92mConfigured and activated [1mright_gripper_controller[0m
+[INFO] [spawner-7]: process has finished cleanly [pid 23928]
+[rviz2-4] [ERROR] [1768460733.662837748] [rviz2]: The link openarm_left_left_finger is has unrealistic inertia, so the equivalent inertia box will not be shown.
 [rviz2-4] 
-[mujoco_ros2_control-1] [INFO] [1768368734.518485676] [controller_manager]: Configuring controller 'left_gripper_controller'
-[mujoco_ros2_control-1] [INFO] [1768368734.518556108] [left_gripper_controller]: Action status changes will be monitored at 20.000000 Hz.
-[spawner-7] [INFO] [1768368734.518904901] [spawner_left_joint_trajectory_controller]: [92mConfigured and activated [1mleft_joint_trajectory_controller[0m
-[mujoco_ros2_control-1] [INFO] [1768368734.687426710] [controller_manager]: Loading controller 'right_joint_trajectory_controller'
-[mujoco_ros2_control-1] [WARN] [1768368734.701229424] [right_joint_trajectory_controller]: [Deprecated]: "allow_nonzero_velocity_at_trajectory_end" is set to true. The default behavior will change to false.
-[spawner-7] [INFO] [1768368734.851885635] [spawner_left_joint_trajectory_controller]: [94mLoaded [1mright_joint_trajectory_controller[0m
-[INFO] [ros2-9]: process started with pid [11886]
-[INFO] [ros2-10]: process started with pid [11888]
-[INFO] [virtual_camera-11]: process started with pid [11890]
-[rviz2-4] [ERROR] [1768368735.189209058] [rviz2]: The link openarm_left_right_finger is has unrealistic inertia, so the equivalent inertia box will not be shown.
+[INFO] [ros2-8]: process started with pid [23972]
+[INFO] [ros2-9]: process started with pid [23974]
+[INFO] [virtual_camera-10]: process started with pid [23976]
+[virtual_camera-10] [INFO] [1768460734.633829929] [virtual_camera]: Virtual Camera Started
+[rviz2-4] [ERROR] [1768460734.654133344] [rviz2]: The link openarm_left_right_finger is has unrealistic inertia, so the equivalent inertia box will not be shown.
 [rviz2-4] 
-[rviz2-4] [ERROR] [1768368735.189401715] [rviz2]: The link openarm_right_left_finger is has unrealistic inertia, so the equivalent inertia box will not be shown.
+[rviz2-4] [ERROR] [1768460734.654328667] [rviz2]: The link openarm_right_left_finger is has unrealistic inertia, so the equivalent inertia box will not be shown.
 [rviz2-4] 
-[rviz2-4] [ERROR] [1768368735.191038852] [rviz2]: The link openarm_right_right_finger is has unrealistic inertia, so the equivalent inertia box will not be shown.
+[rviz2-4] [ERROR] [1768460734.654854810] [rviz2]: The link openarm_right_right_finger is has unrealistic inertia, so the equivalent inertia box will not be shown.
 [rviz2-4] 
-[mujoco_ros2_control-1] [INFO] [1768368735.193750980] [controller_manager]: Configuring controller 'right_joint_trajectory_controller'
-[mujoco_ros2_control-1] [INFO] [1768368735.194284349] [right_joint_trajectory_controller]: No specific joint names are used for command interfaces. Using 'joints' parameter.
-[mujoco_ros2_control-1] [INFO] [1768368735.194394362] [right_joint_trajectory_controller]: Command interfaces are [position] and state interfaces are [position].
-[mujoco_ros2_control-1] [INFO] [1768368735.194434632] [right_joint_trajectory_controller]: Using 'splines' interpolation method.
-[mujoco_ros2_control-1] [INFO] [1768368735.196515916] [right_joint_trajectory_controller]: Controller state will be published at 50.00 Hz.
-[rviz2-4] [ERROR] [1768368735.195392971] [rviz2]: Error retrieving file [file:///home/ros/openarm_ws/openarm_mujoco/v1/meshes/visual/cam/d435_0.stl]: Couldn't open file /home/ros/openarm_ws/openarm_mujoco/v1/meshes/visual/cam/d435_0.stl
-[rviz2-4] [ERROR] [1768368735.195468340] [rviz2]: Error retrieving file [file:///home/ros/openarm_ws/openarm_mujoco/v1/meshes/visual/cam/d435_0.stl]: Couldn't open file /home/ros/openarm_ws/openarm_mujoco/v1/meshes/visual/cam/d435_0.stl
-[rviz2-4] [ERROR] [1768368735.195967543] [rviz2]: The link openarm_left_left_finger is has unrealistic inertia, so the equivalent inertia box will not be shown.
+[rviz2-4] [ERROR] [1768460734.656790798] [rviz2]: Error retrieving file [file:///home/ros/openarm_ws/openarm_mujoco/v1/meshes/visual/cam/d435_0.stl]: Couldn't open file /home/ros/openarm_ws/openarm_mujoco/v1/meshes/visual/cam/d435_0.stl
+[rviz2-4] [ERROR] [1768460734.656832114] [rviz2]: Error retrieving file [file:///home/ros/openarm_ws/openarm_mujoco/v1/meshes/visual/cam/d435_0.stl]: Couldn't open file /home/ros/openarm_ws/openarm_mujoco/v1/meshes/visual/cam/d435_0.stl
+[rviz2-4] [ERROR] [1768460734.657047941] [rviz2]: The link openarm_left_left_finger is has unrealistic inertia, so the equivalent inertia box will not be shown.
 [rviz2-4] 
-[rviz2-4] [ERROR] [1768368735.197382775] [rviz2]: The link openarm_left_right_finger is has unrealistic inertia, so the equivalent inertia box will not be shown.
+[rviz2-4] [ERROR] [1768460734.657571185] [rviz2]: The link openarm_left_right_finger is has unrealistic inertia, so the equivalent inertia box will not be shown.
 [rviz2-4] 
-[rviz2-4] [ERROR] [1768368735.197488743] [rviz2]: The link openarm_right_left_finger is has unrealistic inertia, so the equivalent inertia box will not be shown.
+[rviz2-4] [ERROR] [1768460734.657772363] [rviz2]: The link openarm_right_left_finger is has unrealistic inertia, so the equivalent inertia box will not be shown.
 [rviz2-4] 
-[spawner-8] [INFO] [1768368735.196149123] [spawner_left_gripper_controller]: [92mConfigured and activated [1mleft_gripper_controller[0m
-[rviz2-4] [ERROR] [1768368735.198176308] [rviz2]: The link openarm_right_right_finger is has unrealistic inertia, so the equivalent inertia box will not be shown.
+[rviz2-4] [ERROR] [1768460734.658358289] [rviz2]: The link openarm_right_right_finger is has unrealistic inertia, so the equivalent inertia box will not be shown.
 [rviz2-4] 
-[mujoco_ros2_control-1] [INFO] [1768368735.198773813] [right_joint_trajectory_controller]: Action status changes will be monitored at 50.00 Hz.
-[rviz2-4] [INFO] [1768368735.208262768] [interactive_marker_display_101057223446336]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
-[rviz2-4] [ERROR] [1768368735.208648671] [rviz2]: Error retrieving file [file:///home/ros/openarm_ws/openarm_mujoco/v1/meshes/visual/cam/d435_0.stl]: Couldn't open file /home/ros/openarm_ws/openarm_mujoco/v1/meshes/visual/cam/d435_0.stl
-[rviz2-4] [ERROR] [1768368735.208686436] [rviz2]: Error retrieving file [file:///home/ros/openarm_ws/openarm_mujoco/v1/meshes/visual/cam/d435_0.stl]: Couldn't open file /home/ros/openarm_ws/openarm_mujoco/v1/meshes/visual/cam/d435_0.stl
-[rviz2-4] [ERROR] [1768368735.209031640] [rviz2]: The link openarm_left_left_finger is has unrealistic inertia, so the equivalent inertia box will not be shown.
+[rviz2-4] [INFO] [1768460734.665705539] [interactive_marker_display_96961131816448]: Connected on namespace: /rviz_moveit_motion_planning_display/robot_interaction_interactive_marker_topic
+[rviz2-4] [ERROR] [1768460734.666058678] [rviz2]: Error retrieving file [file:///home/ros/openarm_ws/openarm_mujoco/v1/meshes/visual/cam/d435_0.stl]: Couldn't open file /home/ros/openarm_ws/openarm_mujoco/v1/meshes/visual/cam/d435_0.stl
+[rviz2-4] [ERROR] [1768460734.666096913] [rviz2]: Error retrieving file [file:///home/ros/openarm_ws/openarm_mujoco/v1/meshes/visual/cam/d435_0.stl]: Couldn't open file /home/ros/openarm_ws/openarm_mujoco/v1/meshes/visual/cam/d435_0.stl
+[rviz2-4] [ERROR] [1768460734.666464880] [rviz2]: The link openarm_left_left_finger is has unrealistic inertia, so the equivalent inertia box will not be shown.
 [rviz2-4] 
-[rviz2-4] [ERROR] [1768368735.209636537] [rviz2]: The link openarm_left_right_finger is has unrealistic inertia, so the equivalent inertia box will not be shown.
+[rviz2-4] [ERROR] [1768460734.667010130] [rviz2]: The link openarm_left_right_finger is has unrealistic inertia, so the equivalent inertia box will not be shown.
 [rviz2-4] 
-[rviz2-4] [ERROR] [1768368735.209754247] [rviz2]: The link openarm_right_left_finger is has unrealistic inertia, so the equivalent inertia box will not be shown.
+[rviz2-4] [ERROR] [1768460734.667090716] [rviz2]: The link openarm_right_left_finger is has unrealistic inertia, so the equivalent inertia box will not be shown.
 [rviz2-4] 
-[rviz2-4] [ERROR] [1768368735.210265000] [rviz2]: The link openarm_right_right_finger is has unrealistic inertia, so the equivalent inertia box will not be shown.
+[rviz2-4] [ERROR] [1768460734.667578685] [rviz2]: The link openarm_right_right_finger is has unrealistic inertia, so the equivalent inertia box will not be shown.
 [rviz2-4] 
-[rviz2-4] [ERROR] [1768368735.211189060] [rviz2]: Error retrieving file [file:///home/ros/openarm_ws/openarm_mujoco/v1/meshes/visual/cam/d435_0.stl]: Couldn't open file /home/ros/openarm_ws/openarm_mujoco/v1/meshes/visual/cam/d435_0.stl
-[rviz2-4] [ERROR] [1768368735.211254305] [rviz2]: Error retrieving file [file:///home/ros/openarm_ws/openarm_mujoco/v1/meshes/visual/cam/d435_0.stl]: Couldn't open file /home/ros/openarm_ws/openarm_mujoco/v1/meshes/visual/cam/d435_0.stl
-[rviz2-4] [ERROR] [1768368735.211474264] [rviz2]: The link openarm_left_left_finger is has unrealistic inertia, so the equivalent inertia box will not be shown.
+[rviz2-4] [ERROR] [1768460734.668525590] [rviz2]: Error retrieving file [file:///home/ros/openarm_ws/openarm_mujoco/v1/meshes/visual/cam/d435_0.stl]: Couldn't open file /home/ros/openarm_ws/openarm_mujoco/v1/meshes/visual/cam/d435_0.stl
+[rviz2-4] [ERROR] [1768460734.669297185] [rviz2]: Error retrieving file [file:///home/ros/openarm_ws/openarm_mujoco/v1/meshes/visual/cam/d435_0.stl]: Couldn't open file /home/ros/openarm_ws/openarm_mujoco/v1/meshes/visual/cam/d435_0.stl
+[rviz2-4] [ERROR] [1768460734.669885942] [rviz2]: The link openarm_left_left_finger is has unrealistic inertia, so the equivalent inertia box will not be shown.
 [rviz2-4] 
-[rviz2-4] [ERROR] [1768368735.212035852] [rviz2]: The link openarm_left_right_finger is has unrealistic inertia, so the equivalent inertia box will not be shown.
+[rviz2-4] [ERROR] [1768460734.671037657] [rviz2]: The link openarm_left_right_finger is has unrealistic inertia, so the equivalent inertia box will not be shown.
 [rviz2-4] 
-[rviz2-4] [ERROR] [1768368735.212140795] [rviz2]: The link openarm_right_left_finger is has unrealistic inertia, so the equivalent inertia box will not be shown.
+[rviz2-4] [ERROR] [1768460734.671157342] [rviz2]: The link openarm_right_left_finger is has unrealistic inertia, so the equivalent inertia box will not be shown.
 [rviz2-4] 
-[rviz2-4] [ERROR] [1768368735.212659128] [rviz2]: The link openarm_right_right_finger is has unrealistic inertia, so the equivalent inertia box will not be shown.
+[rviz2-4] [ERROR] [1768460734.671678587] [rviz2]: The link openarm_right_right_finger is has unrealistic inertia, so the equivalent inertia box will not be shown.
 [rviz2-4] 
-[virtual_camera-11] [INFO] [1768368735.283371606] [virtual_camera]: Virtual Camera Started
-[rviz2-4] [INFO] [1768368735.303962517] [moveit_ros_visualization.motion_planning_frame]: group left_arm
-[rviz2-4] [INFO] [1768368735.303999419] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'left_arm' in namespace ''
-[rviz2-4] [INFO] [1768368735.312215591] [move_group_interface]: Ready to take commands for planning group left_arm.
+[rviz2-4] [INFO] [1768460734.680631241] [moveit_ros_visualization.motion_planning_frame]: group left_arm
+[rviz2-4] [INFO] [1768460734.680667530] [moveit_ros_visualization.motion_planning_frame]: Constructing new MoveGroup connection for group 'left_arm' in namespace ''
+[rviz2-4] [INFO] [1768460734.692343702] [move_group_interface]: Ready to take commands for planning group left_arm.
+[rviz2-4] [INFO] [1768460734.693509135] [moveit_ros_visualization.motion_planning_frame]: group left_arm
+[rviz2-4] [INFO] [1768460734.693770053] [moveit_ros_visualization.motion_planning_frame]: group left_arm
+[rviz2-4] [INFO] [1768460734.706592924] [interactive_marker_display_96961131816448]: Sending request for interactive markers
+[rviz2-4] [INFO] [1768460734.943896785] [interactive_marker_display_96961131816448]: Service response received for initialization
+[move_group-3] [WARN] [1768460735.464973715] [tf2_buffer]: Detected time source change. Clearing TF buffer.
+[move_group-3] [WARN] [1768460735.465017450] [tf2_buffer]: Detected time source change. Clearing TF buffer.
+[ros2-8] Set parameter successful
+[INFO] [ros2-8]: process has finished cleanly [pid 23972]
+[ros2-9] Set parameter successful
+[INFO] [ros2-9]: process has finished cleanly [pid 23974]
+[INFO] [gripper_controller-11]: process started with pid [24025]
+[INFO] [full_verification-12]: process started with pid [24027]
+[gripper_controller-11] [INFO] [1768460741.625331127] [gripper_controller]: 夹爪控制模块已启动（双机械臂版本）
+[gripper_controller-11] [INFO] [1768460741.625631282] [gripper_controller]: 左夹爪 Action 话题: /left_gripper_controller/gripper_cmd
+[gripper_controller-11] [INFO] [1768460741.625803393] [gripper_controller]: 右夹爪 Action 话题: /right_gripper_controller/gripper_cmd
+[gripper_controller-11] [INFO] [1768460741.625996846] [gripper_controller]: 等待夹爪控制器启动...
+[full_verification-12] [INFO] [1768460742.641237903] [full_verification]: 抓取规划服务不可用，等待中...
+[full_verification-12] [INFO] [1768460743.645703857] [full_verification]: 抓取规划服务不可用，等待中...
+[INFO] [banana_detector-13]: process started with pid [24047]
+[INFO] [grasp_planner-14]: process started with pid [24049]
+[banana_detector-13] [INFO] [1768460744.617102452] [banana_detector]: Banana Detector: Started (Clean TF Mode)
+[grasp_planner-14] [INFO] [1768460744.675001775] [grasp_planner]: 抓取规划模块已启动
+[full_verification-12] [INFO] [1768460744.899383943] [full_verification]: 全流程实验验证系统已启动
+[full_verification-12] [INFO] [1768460744.899625228] [full_verification]: 等待视觉模块定位目标物体...
+[full_verification-12] [INFO] [1768460744.901779378] [full_verification]: === 开始全流程抓取验证 ===
+[full_verification-12] [INFO] [1768460744.902034240] [full_verification]: 步骤0: 等待视觉模块检测目标物体
+[full_verification-12] [INFO] [1768460744.902202520] [full_verification]: 等待视觉模块检测目标物体...
+[banana_detector-13] [INFO] [1768460747.268477272] [banana_detector]:  Result: X=0.350, Y=-0.001, Z=0.320
+[full_verification-12] [INFO] [1768460747.289320288] [full_verification]: 目标物体已检测到! 位置: x=0.350, y=-0.001, z=0.320
+[full_verification-12] [INFO] [1768460747.289564428] [full_verification]: 步骤1: 打开夹爪
+[gripper_controller-11] [INFO] [1768460747.290127713] [gripper_controller]: 收到夹爪控制请求: 打开
+[gripper_controller-11] [INFO] [1768460747.290524233] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460747.290721797] [gripper_controller]: 发送左夹爪控制命令: 位置=0.06, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460747.290879313] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460747.291284848] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460747.291339461] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460747.291543968] [gripper_controller]: 左夹爪已打开
+[full_verification-12] [INFO] [1768460747.292151100] [full_verification]: 夹爪打开成功
+[gripper_controller-11] [INFO] [1768460747.292187287] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460747.342875355] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0596
+[gripper_controller-11] [INFO] [1768460747.343321380] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0598
+[full_verification-12] [INFO] [1768460749.294872003] [full_verification]: 步骤2: 请求抓取规划
+[grasp_planner-14] [INFO] [1768460749.297010957] [grasp_planner]: 收到抓取规划请求
+[grasp_planner-14] [INFO] [1768460749.299454118] [grasp_planner]: 获取到目标位置: x=0.350, y=-0.001, z=0.320
+[grasp_planner-14] [INFO] [1768460749.300313965] [grasp_planner]: 首先规划到预抓取姿态: z 提高 0.150 m
+[grasp_planner-14] [INFO] [1768460749.303031083] [grasp_planner]: 发送 MoveIt Action Goal...
+[move_group-3] [INFO] [1768460749.304125223] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-3] [INFO] [1768460749.304336521] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[grasp_planner-14] [INFO] [1768460749.306012097] [grasp_planner]: MoveIt Goal 已接受，等待结果...
+[move_group-3] [INFO] [1768460749.334998002] [moveit_move_group_default_capabilities.move_action_capability]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-3] [ERROR] [1768460749.335295924] [moveit_robot_state.conversions]: Found empty JointState message
+[move_group-3] [INFO] [1768460749.335313286] [moveit_ros.fix_start_state_bounds]: Starting state is just outside bounds (joint 'openarm_left_joint4'). Assuming within bounds.
+[move_group-3] [INFO] [1768460749.336893200] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'left_arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-3] [WARN] [1768460750.584015597] [moveit_trajectory_processing.time_optimal_trajectory_generation]: Joint acceleration limits are not defined. Using the default 1 rad/s^2. You can define acceleration limits in the URDF or joint_limits.yaml.
+[move_group-3] [INFO] [1768460750.587606537] [moveit.ros_planning.planning_pipeline]: Planning adapters have added states at index positions: [ 0 ]
+[move_group-3] [INFO] [1768460750.588931681] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was computed successfully.
+[grasp_planner-14] [INFO] [1768460750.591650777] [grasp_planner]: MoveIt 规划成功，轨迹点数: 55
+[grasp_planner-14] [INFO] [1768460750.592267900] [grasp_planner]: 发送轨迹执行请求...
+[mujoco_ros2_control-1] [INFO] [1768460750.592940715] [left_joint_trajectory_controller]: Received new action goal
+[mujoco_ros2_control-1] [INFO] [1768460750.593340256] [left_joint_trajectory_controller]: Accepted new action goal
+[grasp_planner-14] [INFO] [1768460750.595259729] [grasp_planner]: 轨迹执行已接受
+[mujoco_ros2_control-1] [INFO] [1768460753.512906572] [left_joint_trajectory_controller]: Goal reached, success!
+[grasp_planner-14] [INFO] [1768460753.519590650] [grasp_planner]: 预抓取成功，开始规划最终抓取姿态
+[grasp_planner-14] [INFO] [1768460753.528424047] [grasp_planner]: 发送 MoveIt Action Goal...
+[move_group-3] [INFO] [1768460753.530535660] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-3] [INFO] [1768460753.530608078] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[move_group-3] [INFO] [1768460753.531983605] [moveit_move_group_default_capabilities.move_action_capability]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-3] [ERROR] [1768460753.532167581] [moveit_robot_state.conversions]: Found empty JointState message
+[move_group-3] [ERROR] [1768460753.532177178] [moveit_robot_state.conversions]: Found empty JointState message
+[move_group-3] [ERROR] [1768460753.532246165] [moveit_robot_state.conversions]: Found empty JointState message
+[move_group-3] [ERROR] [1768460753.532391394] [moveit_robot_state.conversions]: Found empty JointState message
+[move_group-3] [INFO] [1768460753.532555592] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'left_arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[grasp_planner-14] [INFO] [1768460753.538765658] [grasp_planner]: MoveIt Goal 已接受，等待结果...
+[move_group-3] [INFO] [1768460753.650147003] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was computed successfully.
+[grasp_planner-14] [INFO] [1768460753.657823992] [grasp_planner]: MoveIt 规划成功，轨迹点数: 16
+[grasp_planner-14] [INFO] [1768460753.662285201] [grasp_planner]: 发送轨迹执行请求...
+[mujoco_ros2_control-1] [INFO] [1768460753.664885000] [left_joint_trajectory_controller]: Received new action goal
+[mujoco_ros2_control-1] [INFO] [1768460753.664929623] [left_joint_trajectory_controller]: Accepted new action goal
+[grasp_planner-14] [INFO] [1768460753.673403906] [grasp_planner]: 轨迹执行已接受
+[mujoco_ros2_control-1] [INFO] [1768460754.385916010] [left_joint_trajectory_controller]: Goal reached, success!
+[grasp_planner-14] [INFO] [1768460754.409830113] [grasp_planner]: 最终抓取轨迹执行成功
+[full_verification-12] [INFO] [1768460754.412417368] [full_verification]: 抓取规划成功
+[full_verification-12] [INFO] [1768460754.413745066] [full_verification]: 步骤3: 执行抓取动作
+[full_verification-12] [INFO] [1768460754.414346536] [full_verification]: 注意：请确保机械臂控制器已启动并订阅grasp_trajectory话题
+[full_verification-12] [INFO] [1768460758.418743178] [full_verification]: 步骤4: 闭合夹爪
+[gripper_controller-11] [INFO] [1768460758.419779743] [gripper_controller]: 收到夹爪控制请求: 闭合
+[gripper_controller-11] [INFO] [1768460758.420614025] [gripper_controller]: 左夹爪已闭合
+[gripper_controller-11] [INFO] [1768460758.421138337] [gripper_controller]: 开始匀速闭合：从 0.060 到 0.043，步长 0.000
+[gripper_controller-11] [INFO] [1768460758.421583478] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460758.421865364] [gripper_controller]: 发送左夹爪控制命令: 位置=0.059787730460984276, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460758.422070570] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[full_verification-12] [INFO] [1768460758.422110913] [full_verification]: 夹爪闭合成功
+[mujoco_ros2_control-1] [INFO] [1768460758.422678776] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460758.422809928] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460758.424118292] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460758.474037583] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0600
+[gripper_controller-11] [INFO] [1768460758.474265194] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0598
+[gripper_controller-11] [INFO] [1768460758.527587248] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460758.529609428] [gripper_controller]: 发送左夹爪控制命令: 位置=0.05958773046098428, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460758.531168031] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460758.531789619] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460758.533223244] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460758.533302692] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460758.583534809] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0598
+[gripper_controller-11] [INFO] [1768460758.583783649] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0596
+[gripper_controller-11] [INFO] [1768460758.638038033] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460758.640603506] [gripper_controller]: 发送左夹爪控制命令: 位置=0.05938773046098428, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460758.640850055] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460758.641170915] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460758.641232435] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460758.641939406] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460758.692819337] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0596
+[gripper_controller-11] [INFO] [1768460758.693069991] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0594
+[gripper_controller-11] [INFO] [1768460758.746111922] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460758.746402964] [gripper_controller]: 发送左夹爪控制命令: 位置=0.05918773046098428, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460758.746618154] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460758.750608049] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460758.752257283] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460758.755318854] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460758.801643417] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0594
+[gripper_controller-11] [INFO] [1768460758.801922545] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0592
+[gripper_controller-11] [INFO] [1768460758.856386124] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460758.856688522] [gripper_controller]: 发送左夹爪控制命令: 位置=0.05898773046098428, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460758.856917409] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460758.857348142] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460758.857357759] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460758.858587873] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460758.908720032] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0592
+[gripper_controller-11] [INFO] [1768460758.908930626] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0590
+[gripper_controller-11] [INFO] [1768460758.958183389] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460758.958489010] [gripper_controller]: 发送左夹爪控制命令: 位置=0.05878773046098428, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460758.958645669] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460758.959047767] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460758.959280054] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460758.960371383] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460759.012812159] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0590
+[gripper_controller-11] [INFO] [1768460759.013068995] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0588
+[gripper_controller-11] [INFO] [1768460759.059738242] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460759.060001675] [gripper_controller]: 发送左夹爪控制命令: 位置=0.05858773046098428, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460759.060207495] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460759.060642222] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460759.060567890] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460759.065950921] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460759.111966346] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0588
+[gripper_controller-11] [INFO] [1768460759.112228177] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0586
+[gripper_controller-11] [INFO] [1768460759.161409256] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460759.161676112] [gripper_controller]: 发送左夹爪控制命令: 位置=0.058387730460984284, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460759.161845530] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460759.162174820] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460759.162286640] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460759.163299904] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460759.214295540] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0586
+[gripper_controller-11] [INFO] [1768460759.214714906] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0584
+[gripper_controller-11] [INFO] [1768460759.264758540] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460759.265041407] [gripper_controller]: 发送左夹爪控制命令: 位置=0.058187730460984285, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460759.265214959] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460759.265583071] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460759.266401422] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[mujoco_ros2_control-1] [INFO] [1768460759.265587460] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460759.317089589] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0584
+[gripper_controller-11] [INFO] [1768460759.317449018] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0582
+[gripper_controller-11] [INFO] [1768460759.366455903] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460759.366781860] [gripper_controller]: 发送左夹爪控制命令: 位置=0.05798773046098429, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460759.366940953] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460759.367429426] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460759.367668872] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460759.368466643] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460759.418590618] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0582
+[gripper_controller-11] [INFO] [1768460759.418804134] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0580
+[gripper_controller-11] [INFO] [1768460759.469185661] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460759.470133665] [gripper_controller]: 发送左夹爪控制命令: 位置=0.05778773046098429, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460759.470656219] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460759.471040744] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460759.471600168] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460759.473226666] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460759.523579566] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0580
+[gripper_controller-11] [INFO] [1768460759.523873113] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0578
+[gripper_controller-11] [INFO] [1768460759.573076511] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460759.573357550] [gripper_controller]: 发送左夹爪控制命令: 位置=0.05758773046098429, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460759.573521011] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460759.573816422] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460759.574309603] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460759.574935975] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460759.626044176] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0578
+[gripper_controller-11] [INFO] [1768460759.626327680] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0576
+[gripper_controller-11] [INFO] [1768460759.675438114] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460759.675728890] [gripper_controller]: 发送左夹爪控制命令: 位置=0.05738773046098429, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460759.675889404] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460759.676214417] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460759.676327474] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460759.677286492] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460759.729030317] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0576
+[gripper_controller-11] [INFO] [1768460759.729678498] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0574
+[gripper_controller-11] [INFO] [1768460759.776868876] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460759.777299939] [gripper_controller]: 发送左夹爪控制命令: 位置=0.05718773046098429, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460759.777590045] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460759.778119952] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460759.778269391] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460759.779554088] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460759.830658528] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0574
+[gripper_controller-11] [INFO] [1768460759.830902605] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0572
+[gripper_controller-11] [INFO] [1768460759.878958132] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460759.879265178] [gripper_controller]: 发送左夹爪控制命令: 位置=0.05698773046098429, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460759.879427769] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460759.879782122] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460759.880022156] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460759.880429504] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460759.931569603] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0572
+[gripper_controller-11] [INFO] [1768460759.931891896] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0570
+[gripper_controller-11] [INFO] [1768460759.982246682] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460759.982507561] [gripper_controller]: 发送左夹爪控制命令: 位置=0.056787730460984294, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460759.982678283] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460759.983017309] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460759.985279463] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460759.985849475] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460760.037144163] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0570
+[gripper_controller-11] [INFO] [1768460760.037480147] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0568
+[gripper_controller-11] [INFO] [1768460760.084550698] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460760.086612202] [gripper_controller]: 发送左夹爪控制命令: 位置=0.056587730460984295, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460760.086846106] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460760.087229187] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460760.087144583] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460760.088281579] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460760.140164960] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0568
+[gripper_controller-11] [INFO] [1768460760.140451589] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0566
+[gripper_controller-11] [INFO] [1768460760.187839186] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460760.188154573] [gripper_controller]: 发送左夹爪控制命令: 位置=0.056387730460984296, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460760.188322769] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460760.188681309] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460760.189659576] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460760.190793903] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460760.240903220] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0566
+[gripper_controller-11] [INFO] [1768460760.241156343] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0564
+[gripper_controller-11] [INFO] [1768460760.290931810] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460760.292140662] [gripper_controller]: 发送左夹爪控制命令: 位置=0.0561877304609843, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460760.292344669] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460760.292687572] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460760.293739310] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460760.294567234] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460760.345116761] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0564
+[gripper_controller-11] [INFO] [1768460760.345478112] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0562
+[gripper_controller-11] [INFO] [1768460760.394726594] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460760.395067530] [gripper_controller]: 发送左夹爪控制命令: 位置=0.0559877304609843, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460760.395234937] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460760.396563214] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460760.397460332] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460760.399887196] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460760.448908483] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0562
+[gripper_controller-11] [INFO] [1768460760.449160063] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0560
+[gripper_controller-11] [INFO] [1768460760.500551014] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460760.500841875] [gripper_controller]: 发送左夹爪控制命令: 位置=0.0557877304609843, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460760.501009675] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460760.501427320] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460760.501499517] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460760.502601744] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460760.553333996] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0560
+[gripper_controller-11] [INFO] [1768460760.553705987] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0558
+[gripper_controller-11] [INFO] [1768460760.603026383] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460760.603320089] [gripper_controller]: 发送左夹爪控制命令: 位置=0.0555877304609843, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460760.603490093] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460760.603905611] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460760.604212017] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460760.604954724] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460760.656005826] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0558
+[gripper_controller-11] [INFO] [1768460760.656275589] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0556
+[gripper_controller-11] [INFO] [1768460760.712150887] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460760.712464946] [gripper_controller]: 发送左夹爪控制命令: 位置=0.0553877304609843, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460760.712632000] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460760.712930078] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460760.713025031] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460760.716291884] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460760.770946182] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0556
+[gripper_controller-11] [INFO] [1768460760.771404180] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0554
+[gripper_controller-11] [INFO] [1768460760.813783052] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460760.815030741] [gripper_controller]: 发送左夹爪控制命令: 位置=0.055187730460984304, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460760.816746102] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460760.817147395] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460760.817153793] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460760.818169678] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460760.868742753] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0554
+[gripper_controller-11] [INFO] [1768460760.868992448] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0552
+[gripper_controller-11] [INFO] [1768460760.917834853] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460760.918133025] [gripper_controller]: 发送左夹爪控制命令: 位置=0.054987730460984305, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460760.918295148] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460760.918614892] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460760.918701951] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460760.919714716] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460760.970804816] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0552
+[gripper_controller-11] [INFO] [1768460760.971058350] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0550
+[gripper_controller-11] [INFO] [1768460761.019260344] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460761.019707320] [gripper_controller]: 发送左夹爪控制命令: 位置=0.054787730460984306, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460761.019911359] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460761.020264727] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460761.021738357] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460761.023268850] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460761.073601650] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0550
+[gripper_controller-11] [INFO] [1768460761.073870592] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0548
+[gripper_controller-11] [INFO] [1768460761.123233503] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460761.123516454] [gripper_controller]: 发送左夹爪控制命令: 位置=0.05458773046098431, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460761.123700521] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460761.124080568] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460761.124376910] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460761.125416090] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460761.178858527] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0548
+[gripper_controller-11] [INFO] [1768460761.179166852] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0546
+[gripper_controller-11] [INFO] [1768460761.225088380] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460761.225421245] [gripper_controller]: 发送左夹爪控制命令: 位置=0.05438773046098431, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460761.225587270] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460761.225878589] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460761.227250916] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460761.227668196] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460761.277073994] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0546
+[gripper_controller-11] [INFO] [1768460761.277383425] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0544
+[gripper_controller-11] [INFO] [1768460761.328388027] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460761.328720000] [gripper_controller]: 发送左夹爪控制命令: 位置=0.05418773046098431, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460761.328906677] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460761.329308231] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460761.330527769] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460761.331811675] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460761.382894615] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0544
+[gripper_controller-11] [INFO] [1768460761.384164741] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0542
+[gripper_controller-11] [INFO] [1768460761.432205867] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460761.432845737] [gripper_controller]: 发送左夹爪控制命令: 位置=0.05398773046098431, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460761.433099672] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460761.433572028] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460761.433602202] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460761.435540919] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460761.485365822] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0542
+[gripper_controller-11] [INFO] [1768460761.485612458] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0540
+[gripper_controller-11] [INFO] [1768460761.535155353] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460761.535403756] [gripper_controller]: 发送左夹爪控制命令: 位置=0.05378773046098431, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460761.535565654] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460761.535939163] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460761.535829942] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460761.538040733] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460761.587028397] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0540
+[gripper_controller-11] [INFO] [1768460761.587291969] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0538
+[gripper_controller-11] [INFO] [1768460761.639127796] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460761.639594392] [gripper_controller]: 发送左夹爪控制命令: 位置=0.05358773046098431, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460761.639799728] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460761.640290839] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460761.640203670] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460761.642352845] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460761.692943152] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0538
+[gripper_controller-11] [INFO] [1768460761.693181218] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0536
+[gripper_controller-11] [INFO] [1768460761.740968038] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460761.741351612] [gripper_controller]: 发送左夹爪控制命令: 位置=0.053387730460984315, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460761.741533837] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460761.741942108] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460761.742318601] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460761.744214775] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460761.800549881] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0536
+[gripper_controller-11] [INFO] [1768460761.800826485] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0534
+[gripper_controller-11] [INFO] [1768460761.844520077] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460761.846132039] [gripper_controller]: 发送左夹爪控制命令: 位置=0.053187730460984316, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460761.846383714] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460761.846758832] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460761.846893929] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460761.848822611] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460761.899566887] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0534
+[gripper_controller-11] [INFO] [1768460761.899851467] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0532
+[gripper_controller-11] [INFO] [1768460761.947777085] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460761.948071831] [gripper_controller]: 发送左夹爪控制命令: 位置=0.05298773046098432, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460761.949315225] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460761.949672711] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460761.951802099] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460761.952218346] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460762.000990465] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0532
+[gripper_controller-11] [INFO] [1768460762.001308626] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0530
+[gripper_controller-11] [INFO] [1768460762.053653645] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460762.054822321] [gripper_controller]: 发送左夹爪控制命令: 位置=0.05278773046098432, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460762.054999892] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460762.056041838] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460762.056190468] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460762.057692873] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460762.109970696] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0530
+[gripper_controller-11] [INFO] [1768460762.110219614] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0528
+[gripper_controller-11] [INFO] [1768460762.156867810] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460762.157160176] [gripper_controller]: 发送左夹爪控制命令: 位置=0.05258773046098432, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460762.157344272] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460762.157748524] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460762.157766138] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460762.159179640] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460762.211376837] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0528
+[gripper_controller-11] [INFO] [1768460762.211631427] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0526
+[gripper_controller-11] [INFO] [1768460762.259257559] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460762.259562296] [gripper_controller]: 发送左夹爪控制命令: 位置=0.05238773046098432, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460762.259811572] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460762.260474105] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460762.261530518] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460762.264684312] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460762.312485422] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0526
+[gripper_controller-11] [INFO] [1768460762.312727895] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0524
+[gripper_controller-11] [INFO] [1768460762.362843323] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460762.363214415] [gripper_controller]: 发送左夹爪控制命令: 位置=0.05218773046098432, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460762.363402141] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460762.363724014] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460762.364191998] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[mujoco_ros2_control-1] [INFO] [1768460762.363662472] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460762.415418572] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0524
+[gripper_controller-11] [INFO] [1768460762.415640799] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0522
+[gripper_controller-11] [INFO] [1768460762.465442525] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460762.465684708] [gripper_controller]: 发送左夹爪控制命令: 位置=0.05198773046098432, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460762.465854300] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460762.466130520] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460762.466268932] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460762.466667973] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460762.517953924] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0522
+[gripper_controller-11] [INFO] [1768460762.518236793] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0520
+[gripper_controller-11] [INFO] [1768460762.567353536] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460762.569921711] [gripper_controller]: 发送左夹爪控制命令: 位置=0.051787730460984324, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460762.570140209] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460762.570540262] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460762.570727431] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460762.572109912] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460762.622614400] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0520
+[gripper_controller-11] [INFO] [1768460762.622930923] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0518
+[gripper_controller-11] [INFO] [1768460762.675382294] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460762.675683609] [gripper_controller]: 发送左夹爪控制命令: 位置=0.051587730460984325, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460762.675863419] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460762.679571417] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460762.676383406] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460762.679755072] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460762.729105729] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0518
+[gripper_controller-11] [INFO] [1768460762.729323434] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0516
+[gripper_controller-11] [INFO] [1768460762.780611641] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460762.780917861] [gripper_controller]: 发送左夹爪控制命令: 位置=0.05138773046098433, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460762.781083640] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460762.781547404] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460762.782082973] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460762.783374846] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460762.836587040] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0516
+[gripper_controller-11] [INFO] [1768460762.836810975] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0514
+[gripper_controller-11] [INFO] [1768460762.883600786] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460762.883965396] [gripper_controller]: 发送左夹爪控制命令: 位置=0.05118773046098433, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460762.884150628] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460762.884614111] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460762.884806141] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460762.886865880] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460762.936942969] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0514
+[gripper_controller-11] [INFO] [1768460762.937164962] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0512
+[gripper_controller-11] [INFO] [1768460762.985188284] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460762.985465562] [gripper_controller]: 发送左夹爪控制命令: 位置=0.05098773046098433, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460762.985630875] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460762.986022477] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460762.986260268] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460762.988903527] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460763.038084372] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0512
+[gripper_controller-11] [INFO] [1768460763.038401146] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0510
+[gripper_controller-11] [INFO] [1768460763.086599419] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460763.086878747] [gripper_controller]: 发送左夹爪控制命令: 位置=0.05078773046098433, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460763.087044615] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460763.087324173] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460763.087458685] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460763.088831413] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460763.139174813] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0510
+[gripper_controller-11] [INFO] [1768460763.139502800] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0508
+[gripper_controller-11] [INFO] [1768460763.188395790] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460763.188726189] [gripper_controller]: 发送左夹爪控制命令: 位置=0.05058773046098433, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460763.188970780] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460763.189324231] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460763.189927872] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460763.192681933] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460763.241738274] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0508
+[gripper_controller-11] [INFO] [1768460763.241961606] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0506
+[gripper_controller-11] [INFO] [1768460763.291644832] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460763.294848019] [gripper_controller]: 发送左夹爪控制命令: 位置=0.05038773046098433, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460763.296419396] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460763.296828940] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460763.298782105] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460763.298987303] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460763.349129626] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0506
+[gripper_controller-11] [INFO] [1768460763.349541968] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0504
+[gripper_controller-11] [INFO] [1768460763.399513323] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460763.399822890] [gripper_controller]: 发送左夹爪控制命令: 位置=0.050187730460984334, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460763.400000840] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460763.400410249] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460763.401973289] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460763.403765640] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460763.455734208] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0504
+[gripper_controller-11] [INFO] [1768460763.455995133] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0502
+[gripper_controller-11] [INFO] [1768460763.501128679] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460763.501381144] [gripper_controller]: 发送左夹爪控制命令: 位置=0.049987730460984335, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460763.501545319] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460763.502188122] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460763.503516421] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460763.506192906] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460763.554252518] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0502
+[gripper_controller-11] [INFO] [1768460763.554535099] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0500
+[gripper_controller-11] [INFO] [1768460763.605985131] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460763.606345985] [gripper_controller]: 发送左夹爪控制命令: 位置=0.049787730460984336, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460763.606531977] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460763.606928656] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460763.609274369] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460763.611494455] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460763.664784576] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0500
+[gripper_controller-11] [INFO] [1768460763.665029999] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0498
+[gripper_controller-11] [INFO] [1768460763.707674985] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460763.707988311] [gripper_controller]: 发送左夹爪控制命令: 位置=0.04958773046098434, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460763.708151365] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460763.708600505] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460763.708492969] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460763.710453978] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460763.759445976] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0498
+[gripper_controller-11] [INFO] [1768460763.759661405] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0496
+[gripper_controller-11] [INFO] [1768460763.809234299] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460763.809579559] [gripper_controller]: 发送左夹爪控制命令: 位置=0.04938773046098434, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460763.809744955] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460763.810231476] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460763.810855754] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460763.811054094] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460763.864679719] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0496
+[gripper_controller-11] [INFO] [1768460763.864914919] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0494
+[gripper_controller-11] [INFO] [1768460763.911591063] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460763.911858917] [gripper_controller]: 发送左夹爪控制命令: 位置=0.04918773046098434, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460763.912559710] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460763.913479090] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460763.914905320] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460763.917887762] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460763.967010755] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0494
+[gripper_controller-11] [INFO] [1768460763.967232513] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0492
+[gripper_controller-11] [INFO] [1768460764.016028640] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460764.016382247] [gripper_controller]: 发送左夹爪控制命令: 位置=0.04898773046098434, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460764.016569995] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460764.016939242] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460764.017157846] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460764.020050028] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460764.068705498] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0492
+[gripper_controller-11] [INFO] [1768460764.068965661] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0490
+[gripper_controller-11] [INFO] [1768460764.117953698] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460764.119272763] [gripper_controller]: 发送左夹爪控制命令: 位置=0.04878773046098434, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460764.119496366] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460764.119953185] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460764.121557107] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460764.126079038] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460764.173689805] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0490
+[gripper_controller-11] [INFO] [1768460764.173967430] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0488
+[gripper_controller-11] [INFO] [1768460764.221125929] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460764.221494330] [gripper_controller]: 发送左夹爪控制命令: 位置=0.048587730460984344, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460764.221662475] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460764.222061398] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460764.223391865] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460764.225146237] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460764.282279783] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0488
+[gripper_controller-11] [INFO] [1768460764.282545239] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0486
+[gripper_controller-11] [INFO] [1768460764.326028608] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460764.328352220] [gripper_controller]: 发送左夹爪控制命令: 位置=0.048387730460984345, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460764.328709996] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460764.329117671] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460764.329152454] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460764.330697646] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460764.381064259] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0486
+[gripper_controller-11] [INFO] [1768460764.381300154] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0484
+[gripper_controller-11] [INFO] [1768460764.429771338] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460764.430069894] [gripper_controller]: 发送左夹爪控制命令: 位置=0.048187730460984346, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460764.430237203] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460764.430520523] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460764.432239272] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460764.432410145] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460764.483519789] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0484
+[gripper_controller-11] [INFO] [1768460764.483749606] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0482
+[gripper_controller-11] [INFO] [1768460764.535320237] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460764.535637906] [gripper_controller]: 发送左夹爪控制命令: 位置=0.04798773046098435, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460764.535804271] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460764.536185339] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460764.536516639] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460764.538515626] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460764.587747302] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0482
+[gripper_controller-11] [INFO] [1768460764.588006155] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0480
+[gripper_controller-11] [INFO] [1768460764.637539751] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460764.637818356] [gripper_controller]: 发送左夹爪控制命令: 位置=0.04778773046098435, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460764.637985815] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460764.638336122] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460764.640438193] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460764.641838294] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460764.696172497] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0480
+[gripper_controller-11] [INFO] [1768460764.697321112] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0478
+[gripper_controller-11] [INFO] [1768460764.738871211] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460764.739211281] [gripper_controller]: 发送左夹爪控制命令: 位置=0.04758773046098435, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460764.739520831] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460764.740053731] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460764.740212152] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460764.740784020] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460764.798251472] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0478
+[gripper_controller-11] [INFO] [1768460764.798511460] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0476
+[gripper_controller-11] [INFO] [1768460764.840938672] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460764.841207396] [gripper_controller]: 发送左夹爪控制命令: 位置=0.04738773046098435, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460764.841443129] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460764.841861110] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460764.842016487] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460764.843822995] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460764.893187536] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0476
+[gripper_controller-11] [INFO] [1768460764.893743221] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0474
+[gripper_controller-11] [INFO] [1768460764.944461738] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460764.948158190] [gripper_controller]: 发送左夹爪控制命令: 位置=0.04718773046098435, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460764.948623485] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460764.949237760] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460764.950322616] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460764.952067412] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460765.004066673] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0474
+[gripper_controller-11] [INFO] [1768460765.004303430] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0472
+[gripper_controller-11] [INFO] [1768460765.051014615] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460765.051351971] [gripper_controller]: 发送左夹爪控制命令: 位置=0.04698773046098435, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460765.052588203] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460765.052957330] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460765.053408580] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460765.057158348] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460765.105904388] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0472
+[gripper_controller-11] [INFO] [1768460765.106157049] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0470
+[gripper_controller-11] [INFO] [1768460765.154427047] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460765.154711095] [gripper_controller]: 发送左夹爪控制命令: 位置=0.046787730460984354, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460765.154872935] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460765.155252614] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460765.155437621] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460765.157489976] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460765.207402953] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0470
+[gripper_controller-11] [INFO] [1768460765.207632339] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0468
+[gripper_controller-11] [INFO] [1768460765.256890956] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460765.257214910] [gripper_controller]: 发送左夹爪控制命令: 位置=0.046587730460984356, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460765.257382624] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460765.257741128] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460765.258018126] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460765.258802640] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460765.308610932] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0468
+[gripper_controller-11] [INFO] [1768460765.308863323] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0466
+[gripper_controller-11] [INFO] [1768460765.359348699] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460765.359663813] [gripper_controller]: 发送左夹爪控制命令: 位置=0.04638773046098436, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460765.359829202] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460765.360298761] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460765.360256630] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460765.364016394] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460765.411555054] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0466
+[gripper_controller-11] [INFO] [1768460765.411815435] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0464
+[gripper_controller-11] [INFO] [1768460765.463561800] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460765.463826842] [gripper_controller]: 发送左夹爪控制命令: 位置=0.04618773046098436, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460765.463990397] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460765.464403571] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460765.464383980] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460765.467097615] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460765.515797559] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0464
+[gripper_controller-11] [INFO] [1768460765.516018267] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0462
+[gripper_controller-11] [INFO] [1768460765.567128787] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460765.567432460] [gripper_controller]: 发送左夹爪控制命令: 位置=0.04598773046098436, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460765.567603299] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460765.567934969] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460765.568243140] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460765.570453656] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460765.619787053] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0462
+[gripper_controller-11] [INFO] [1768460765.620012832] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0460
+[gripper_controller-11] [INFO] [1768460765.669272085] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460765.669561721] [gripper_controller]: 发送左夹爪控制命令: 位置=0.04578773046098436, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460765.669757418] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460765.670182891] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460765.670282651] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460765.670894200] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460765.721922091] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0460
+[gripper_controller-11] [INFO] [1768460765.722189365] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0458
+[gripper_controller-11] [INFO] [1768460765.773339794] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460765.773656012] [gripper_controller]: 发送左夹爪控制命令: 位置=0.04558773046098436, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460765.773819892] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460765.774170178] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460765.775616338] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460765.778672180] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460765.827915801] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0458
+[gripper_controller-11] [INFO] [1768460765.828174181] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0456
+[gripper_controller-11] [INFO] [1768460765.875722179] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460765.876568966] [gripper_controller]: 发送左夹爪控制命令: 位置=0.04538773046098436, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460765.876898917] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460765.877884065] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460765.878021597] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460765.879929506] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460765.928854778] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0456
+[gripper_controller-11] [INFO] [1768460765.929518590] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0454
+[gripper_controller-11] [INFO] [1768460765.978636676] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460765.978957930] [gripper_controller]: 发送左夹爪控制命令: 位置=0.045187730460984364, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460765.979138216] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460765.980732861] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460765.981322926] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460765.983295985] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460766.033690238] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0454
+[gripper_controller-11] [INFO] [1768460766.033965228] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0452
+[gripper_controller-11] [INFO] [1768460766.081564709] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460766.081873748] [gripper_controller]: 发送左夹爪控制命令: 位置=0.044987730460984365, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460766.082038991] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460766.083015758] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460766.083032732] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460766.087880897] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460766.136589033] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0452
+[gripper_controller-11] [INFO] [1768460766.136869646] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0450
+[gripper_controller-11] [INFO] [1768460766.184997670] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460766.185271648] [gripper_controller]: 发送左夹爪控制命令: 位置=0.04478773046098437, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460766.185448135] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460766.187219147] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460766.189007124] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460766.189564216] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460766.237982833] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0450
+[gripper_controller-11] [INFO] [1768460766.238231701] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0448
+[gripper_controller-11] [INFO] [1768460766.290580891] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460766.290873882] [gripper_controller]: 发送左夹爪控制命令: 位置=0.04458773046098437, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460766.291041462] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460766.291595740] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460766.291787983] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460766.292477797] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460766.343029960] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0448
+[gripper_controller-11] [INFO] [1768460766.343282214] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0446
+[gripper_controller-11] [INFO] [1768460766.394772163] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460766.395066253] [gripper_controller]: 发送左夹爪控制命令: 位置=0.04438773046098437, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460766.396100901] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460766.396530665] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460766.396645936] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460766.399152661] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460766.449000347] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0446
+[gripper_controller-11] [INFO] [1768460766.449289128] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0444
+[gripper_controller-11] [INFO] [1768460766.497789323] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460766.501021680] [gripper_controller]: 发送左夹爪控制命令: 位置=0.04418773046098437, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460766.501236814] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460766.501668061] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460766.502552407] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460766.505272570] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460766.555840340] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0444
+[gripper_controller-11] [INFO] [1768460766.556122547] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0442
+[gripper_controller-11] [INFO] [1768460766.604737605] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460766.605242733] [gripper_controller]: 发送左夹爪控制命令: 位置=0.04398773046098437, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460766.605427737] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460766.605823889] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460766.607592150] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460766.609427193] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460766.659671138] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0442
+[gripper_controller-11] [INFO] [1768460766.659926348] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0440
+[gripper_controller-11] [INFO] [1768460766.706555183] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460766.706922254] [gripper_controller]: 发送左夹爪控制命令: 位置=0.04378773046098437, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460766.707110956] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460766.707897641] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460766.708189629] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460766.711385767] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460766.760768535] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0440
+[gripper_controller-11] [INFO] [1768460766.761435876] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0438
+[gripper_controller-11] [INFO] [1768460766.808826295] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460766.809164234] [gripper_controller]: 发送左夹爪控制命令: 位置=0.043587730460984374, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460766.809351967] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460766.809819084] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460766.811258244] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460766.814518518] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460766.863940711] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0438
+[gripper_controller-11] [INFO] [1768460766.864204763] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0436
+[gripper_controller-11] [INFO] [1768460766.910743632] [gripper_controller]: 匀速闭合完成，最终到达 0.043
+[gripper_controller-11] [INFO] [1768460766.912944082] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460766.913873667] [gripper_controller]: 发送左夹爪控制命令: 位置=0.0435, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460766.914539343] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[gripper_controller-11] [INFO] [1768460766.915426551] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[mujoco_ros2_control-1] [INFO] [1768460766.915463445] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460766.919889155] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460766.969014052] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0436
+[gripper_controller-11] [INFO] [1768460766.969280697] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0435
+[full_verification-12] [INFO] [1768460773.432245882] [full_verification]: 步骤5: 抓取完成，提升机械臂
+[grasp_planner-14] [INFO] [1768460773.435340663] [grasp_planner]: 收到抓取后抬起请求，将沿 +Z 抬起 0.150 m
+[grasp_planner-14] [INFO] [1768460773.436537993] [grasp_planner]: 发送抬起 MoveIt Action Goal...
+[move_group-3] [INFO] [1768460773.437238243] [moveit_move_group_default_capabilities.move_action_capability]: Received request
+[move_group-3] [INFO] [1768460773.437337338] [moveit_move_group_default_capabilities.move_action_capability]: executing..
+[grasp_planner-14] [INFO] [1768460773.438726424] [grasp_planner]: MoveIt Goal 已接受，等待结果...
+[move_group-3] [INFO] [1768460773.455291201] [moveit_move_group_default_capabilities.move_action_capability]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[move_group-3] [ERROR] [1768460773.455468460] [moveit_robot_state.conversions]: Found empty JointState message
+[move_group-3] [ERROR] [1768460773.455481530] [moveit_robot_state.conversions]: Found empty JointState message
+[move_group-3] [ERROR] [1768460773.455543713] [moveit_robot_state.conversions]: Found empty JointState message
+[move_group-3] [ERROR] [1768460773.455662771] [moveit_robot_state.conversions]: Found empty JointState message
+[move_group-3] [INFO] [1768460773.455823414] [moveit.ompl_planning.model_based_planning_context]: Planner configuration 'left_arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[move_group-3] [INFO] [1768460773.681254931] [moveit_move_group_default_capabilities.move_action_capability]: Motion plan was computed successfully.
+[grasp_planner-14] [INFO] [1768460773.684018077] [grasp_planner]: MoveIt 规划成功，轨迹点数: 16
+[grasp_planner-14] [INFO] [1768460773.684602703] [grasp_planner]: 发送轨迹执行请求...
+[mujoco_ros2_control-1] [INFO] [1768460773.685096458] [left_joint_trajectory_controller]: Received new action goal
+[mujoco_ros2_control-1] [INFO] [1768460773.685179948] [left_joint_trajectory_controller]: Accepted new action goal
+[grasp_planner-14] [INFO] [1768460773.686764449] [grasp_planner]: 轨迹执行已接受
+[mujoco_ros2_control-1] [INFO] [1768460774.408415760] [left_joint_trajectory_controller]: Goal reached, success!
+[grasp_planner-14] [INFO] [1768460774.429178799] [grasp_planner]: 抬起轨迹执行成功
+[full_verification-12] [INFO] [1768460774.430009437] [full_verification]: 提升机械臂成功
+[full_verification-12] [INFO] [1768460779.435680366] [full_verification]: 步骤6: 打开夹手放下香蕉
+[gripper_controller-11] [INFO] [1768460779.436638462] [gripper_controller]: 收到夹爪控制请求: 打开
+[gripper_controller-11] [INFO] [1768460779.437020302] [gripper_controller]: 左夹爪控制服务器已就绪
+[gripper_controller-11] [INFO] [1768460779.437236720] [gripper_controller]: 发送左夹爪控制命令: 位置=0.06, 最大力=100.0
+[gripper_controller-11] [INFO] [1768460779.437401296] [gripper_controller]: 注意：位置值含义 - 0.0=闭合（手指靠拢），0.044=打开（手指分开）
+[mujoco_ros2_control-1] [INFO] [1768460779.437711289] [left_gripper_controller]: Received & accepted new action goal
+[gripper_controller-11] [INFO] [1768460779.437778180] [gripper_controller]: 左夹爪控制命令已发送（异步执行）
+[gripper_controller-11] [INFO] [1768460779.437958960] [gripper_controller]: 左夹爪已打开
+[full_verification-12] [INFO] [1768460779.439165127] [full_verification]: 夹爪打开成功
+[gripper_controller-11] [INFO] [1768460779.439739892] [gripper_controller]: 左夹爪控制命令已被控制器接受，开始执行...
+[gripper_controller-11] [INFO] [1768460779.488947721] [gripper_controller]: 左夹爪动作执行完成，Action 返回位置: 0.0598
+[gripper_controller-11] [INFO] [1768460779.489197718] [gripper_controller]: 执行完成后当前左夹爪 /joint_states 位置: 0.0598
+[full_verification-12] [INFO] [1768460781.439809559] [full_verification]: === 全流程抓取验证完成 ===
 [WARNING] [launch]: user interrupted with ctrl-c (SIGINT)
-[rviz2-4] [INFO] [1768368735.359874764] [rclcpp]: signal_handler(signum=2)
-[robot_state_publisher-2] [INFO] [1768368735.359903625] [rclcpp]: signal_handler(signum=2)
-[move_group-3] [INFO] [1768368735.359901000] [rclcpp]: signal_handler(signum=2)
-[mujoco_ros2_control-1] [INFO] [1768368735.359982832] [rclcpp]: signal_handler(signum=2)
-[mujoco_ros2_control-1] [INFO] [1768368735.360091740] [controller_manager]: Shutdown request received....
-[mujoco_ros2_control-1] [INFO] [1768368735.360188556] [controller_manager]: Shutting down all controllers in the controller manager.
-[virtual_camera-11] Traceback (most recent call last):
-[virtual_camera-11]   File "/home/zjc/openarm_ws/install/openarm_vision/lib/openarm_vision/virtual_camera", line 33, in <module>
-[virtual_camera-11]     sys.exit(load_entry_point('openarm-vision', 'console_scripts', 'virtual_camera')())
-[virtual_camera-11]   File "/home/zjc/openarm_ws/build/openarm_vision/openarm_vision/virtual_camera.py", line 103, in main
-[virtual_camera-11]     rclpy.spin(node)
-[virtual_camera-11]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
-[virtual_camera-11]     executor.spin_once()
-[virtual_camera-11]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 773, in spin_once
-[virtual_camera-11]     self._spin_once_impl(timeout_sec)
-[virtual_camera-11]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 762, in _spin_once_impl
-[virtual_camera-11]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
-[virtual_camera-11]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 745, in wait_for_ready_callbacks
-[virtual_camera-11]     return next(self._cb_iter)
-[virtual_camera-11]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 642, in _wait_for_ready_callbacks
-[virtual_camera-11]     wait_set.wait(timeout_nsec)
-[virtual_camera-11] KeyboardInterrupt
-[mujoco_ros2_control-1] [INFO] [1768368735.368482094] [controller_manager]: Deactivating controller 'joint_state_broadcaster'
-[mujoco_ros2_control-1] [INFO] [1768368735.368588240] [controller_manager]: Shutting down controller 'joint_state_broadcaster'
-[mujoco_ros2_control-1] [INFO] [1768368735.368611864] [controller_manager]: Deactivating controller 'left_joint_trajectory_controller'
-[mujoco_ros2_control-1] [INFO] [1768368735.368640659] [controller_manager]: Shutting down controller 'left_joint_trajectory_controller'
-[mujoco_ros2_control-1] [INFO] [1768368735.368648596] [controller_manager]: Deactivating controller 'left_gripper_controller'
-[mujoco_ros2_control-1] [INFO] [1768368735.368661313] [controller_manager]: Shutting down controller 'left_gripper_controller'
-[mujoco_ros2_control-1] [INFO] [1768368735.368669196] [controller_manager]: Shutting down controller 'right_joint_trajectory_controller'
-[mujoco_ros2_control-1] [INFO] [1768368735.369108006] [resource_manager]: 'deactivate' hardware 'openarm_right_hardware_interface' 
-[mujoco_ros2_control-1] [INFO] [1768368735.369128841] [resource_manager]: Successful 'deactivate' of hardware 'openarm_right_hardware_interface'
-[mujoco_ros2_control-1] [INFO] [1768368735.369131621] [resource_manager]: 'shutdown' hardware 'openarm_right_hardware_interface' 
-[mujoco_ros2_control-1] [INFO] [1768368735.369134888] [resource_manager]: Successful 'shutdown' of hardware 'openarm_right_hardware_interface'
-[mujoco_ros2_control-1] [INFO] [1768368735.369138958] [resource_manager]: 'deactivate' hardware 'openarm_left_hardware_interface' 
-[mujoco_ros2_control-1] [INFO] [1768368735.369141901] [resource_manager]: Successful 'deactivate' of hardware 'openarm_left_hardware_interface'
-[mujoco_ros2_control-1] [INFO] [1768368735.369143674] [resource_manager]: 'shutdown' hardware 'openarm_left_hardware_interface' 
-[mujoco_ros2_control-1] [INFO] [1768368735.369146273] [resource_manager]: Successful 'shutdown' of hardware 'openarm_left_hardware_interface'
-[mujoco_ros2_control-1] [INFO] [1768368735.369148400] [controller_manager]: Shutting down the controller manager.
+[robot_state_publisher-2] [INFO] [1768460791.561895343] [rclcpp]: signal_handler(signum=2)
+[rviz2-4] [INFO] [1768460791.561958228] [rclcpp]: signal_handler(signum=2)
+[virtual_camera-10] Traceback (most recent call last):
+[virtual_camera-10]   File "/home/zjc/openarm_ws/install/openarm_vision/lib/openarm_vision/virtual_camera", line 33, in <module>
+[virtual_camera-10]     sys.exit(load_entry_point('openarm-vision', 'console_scripts', 'virtual_camera')())
+[virtual_camera-10]   File "/home/zjc/openarm_ws/build/openarm_vision/openarm_vision/virtual_camera.py", line 103, in main
+[virtual_camera-10]     rclpy.spin(node)
+[virtual_camera-10]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
+[virtual_camera-10]     executor.spin_once()
+[virtual_camera-10]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 773, in spin_once
+[virtual_camera-10]     self._spin_once_impl(timeout_sec)
+[virtual_camera-10]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 762, in _spin_once_impl
+[virtual_camera-10]     handler, entity, node = self.wait_for_ready_callbacks(timeout_sec=timeout_sec)
+[virtual_camera-10]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 745, in wait_for_ready_callbacks
+[virtual_camera-10]     return next(self._cb_iter)
+[virtual_camera-10]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 642, in _wait_for_ready_callbacks
+[virtual_camera-10]     wait_set.wait(timeout_nsec)
+[virtual_camera-10] KeyboardInterrupt
+[mujoco_ros2_control-1] [INFO] [1768460791.565780994] [rclcpp]: signal_handler(signum=2)
+[mujoco_ros2_control-1] [INFO] [1768460791.566226493] [controller_manager]: Shutdown request received....
+[mujoco_ros2_control-1] [INFO] [1768460791.566490222] [controller_manager]: Shutting down all controllers in the controller manager.
+[mujoco_ros2_control-1] [INFO] [1768460791.566546146] [controller_manager]: Deactivating controller 'joint_state_broadcaster'
+[mujoco_ros2_control-1] [INFO] [1768460791.566580259] [controller_manager]: Shutting down controller 'joint_state_broadcaster'
+[mujoco_ros2_control-1] [INFO] [1768460791.566594116] [controller_manager]: Deactivating controller 'left_joint_trajectory_controller'
+[mujoco_ros2_control-1] [INFO] [1768460791.566614397] [controller_manager]: Shutting down controller 'left_joint_trajectory_controller'
+[mujoco_ros2_control-1] [INFO] [1768460791.566624014] [controller_manager]: Deactivating controller 'right_joint_trajectory_controller'
+[mujoco_ros2_control-1] [INFO] [1768460791.566634690] [controller_manager]: Shutting down controller 'right_joint_trajectory_controller'
+[mujoco_ros2_control-1] [INFO] [1768460791.566641453] [controller_manager]: Deactivating controller 'left_gripper_controller'
+[mujoco_ros2_control-1] [INFO] [1768460791.566652541] [controller_manager]: Shutting down controller 'left_gripper_controller'
+[mujoco_ros2_control-1] [INFO] [1768460791.566658852] [controller_manager]: Deactivating controller 'right_gripper_controller'
+[mujoco_ros2_control-1] [INFO] [1768460791.566665987] [controller_manager]: Shutting down controller 'right_gripper_controller'
+[mujoco_ros2_control-1] [INFO] [1768460791.566682367] [resource_manager]: 'deactivate' hardware 'openarm_right_hardware_interface' 
+[mujoco_ros2_control-1] [INFO] [1768460791.566688555] [resource_manager]: Successful 'deactivate' of hardware 'openarm_right_hardware_interface'
+[mujoco_ros2_control-1] [INFO] [1768460791.566691128] [resource_manager]: 'shutdown' hardware 'openarm_right_hardware_interface' 
+[mujoco_ros2_control-1] [INFO] [1768460791.566693810] [resource_manager]: Successful 'shutdown' of hardware 'openarm_right_hardware_interface'
+[mujoco_ros2_control-1] [INFO] [1768460791.566696976] [resource_manager]: 'deactivate' hardware 'openarm_left_hardware_interface' 
+[mujoco_ros2_control-1] [INFO] [1768460791.566699440] [resource_manager]: Successful 'deactivate' of hardware 'openarm_left_hardware_interface'
+[mujoco_ros2_control-1] [INFO] [1768460791.566701266] [resource_manager]: 'shutdown' hardware 'openarm_left_hardware_interface' 
+[mujoco_ros2_control-1] [INFO] [1768460791.566703527] [resource_manager]: Successful 'shutdown' of hardware 'openarm_left_hardware_interface'
+[mujoco_ros2_control-1] [INFO] [1768460791.566705514] [controller_manager]: Shutting down the controller manager.
+[move_group-3] [INFO] [1768460791.567596850] [rclcpp]: signal_handler(signum=2)
+[rviz2-4] [WARN] [1768460791.584238876] [interactive_marker_display_96961131816448]: Server not available while running, resetting
+[gripper_controller-11] Traceback (most recent call last):
+[gripper_controller-11]   File "/home/zjc/openarm_ws/install/openarm_grasp_planner/lib/openarm_grasp_planner/gripper_controller", line 33, in <module>
+[gripper_controller-11]     sys.exit(load_entry_point('openarm-grasp-planner', 'console_scripts', 'gripper_controller')())
+[gripper_controller-11]   File "/home/zjc/openarm_ws/build/openarm_grasp_planner/openarm_grasp_planner/gripper_controller.py", line 197, in main
+[gripper_controller-11]     rclpy.shutdown()
+[gripper_controller-11]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 130, in shutdown
+[gripper_controller-11]     _shutdown(context=context)
+[gripper_controller-11]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/utilities.py", line 58, in shutdown
+[gripper_controller-11]     return context.shutdown()
+[gripper_controller-11]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/context.py", line 102, in shutdown
+[gripper_controller-11]     self.__context.shutdown()
+[gripper_controller-11] rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:241
+[grasp_planner-14] Traceback (most recent call last):
+[grasp_planner-14]   File "/home/zjc/openarm_ws/install/openarm_grasp_planner/lib/openarm_grasp_planner/grasp_planner", line 33, in <module>
+[grasp_planner-14]     sys.exit(load_entry_point('openarm-grasp-planner', 'console_scripts', 'grasp_planner')())
+[grasp_planner-14]   File "/home/zjc/openarm_ws/build/openarm_grasp_planner/openarm_grasp_planner/grasp_planner.py", line 627, in main
+[grasp_planner-14]     rclpy.shutdown()
+[grasp_planner-14]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 130, in shutdown
+[grasp_planner-14]     _shutdown(context=context)
+[grasp_planner-14]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/utilities.py", line 58, in shutdown
+[grasp_planner-14]     return context.shutdown()
+[grasp_planner-14]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/context.py", line 102, in shutdown
+[grasp_planner-14]     self.__context.shutdown()
+[grasp_planner-14] rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:241
+[banana_detector-13] Traceback (most recent call last):
+[move_group-3] [INFO] [1768460791.616347329] [moveit.ros_planning_interface.moveit_cpp]: Deleting MoveItCpp
+[banana_detector-13]   File "/home/zjc/openarm_ws/install/openarm_vision/lib/openarm_vision/banana_detector", line 33, in <module>
+[banana_detector-13]     sys.exit(load_entry_point('openarm-vision', 'console_scripts', 'banana_detector')())
+[banana_detector-13]   File "/home/zjc/openarm_ws/build/openarm_vision/openarm_vision/banana_detector.py", line 168, in main
+[banana_detector-13]     rclpy.shutdown()
+[banana_detector-13]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 130, in shutdown
+[banana_detector-13]     _shutdown(context=context)
+[banana_detector-13]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/utilities.py", line 58, in shutdown
+[banana_detector-13]     return context.shutdown()
+[banana_detector-13]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/context.py", line 102, in shutdown
+[banana_detector-13]     self.__context.shutdown()
+[banana_detector-13] rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:241
+[full_verification-12] Traceback (most recent call last):
+[full_verification-12]   File "/home/zjc/openarm_ws/install/openarm_grasp_planner/lib/openarm_grasp_planner/full_verification", line 33, in <module>
+[full_verification-12]     sys.exit(load_entry_point('openarm-grasp-planner', 'console_scripts', 'full_verification')())
+[full_verification-12]   File "/home/zjc/openarm_ws/build/openarm_grasp_planner/openarm_grasp_planner/full_verification.py", line 219, in main
+[full_verification-12]     rclpy.shutdown()
+[full_verification-12]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 130, in shutdown
+[full_verification-12]     _shutdown(context=context)
+[full_verification-12]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/utilities.py", line 58, in shutdown
+[full_verification-12]     return context.shutdown()
+[full_verification-12]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/context.py", line 102, in shutdown
+[full_verification-12]     self.__context.shutdown()
+[full_verification-12] rclpy._rclpy_pybind11.RCLError: failed to shutdown: rcl_shutdown already called on the given context, at ./src/rcl/init.c:241
 [mujoco_ros2_control-1] terminate called after throwing an instance of 'std::runtime_error'
 [mujoco_ros2_control-1]   what():  Node needs to be associated with an executor.
-[move_group-3] [INFO] [1768368735.397334082] [moveit.ros_planning_interface.moveit_cpp]: Deleting MoveItCpp
-[ERROR] [virtual_camera-11]: process has died [pid 11890, exit code -2, cmd '/home/zjc/openarm_ws/install/openarm_vision/lib/openarm_vision/virtual_camera --ros-args -r __node:=virtual_camera --params-file /tmp/launch_params_k58b9ld7'].
-[ERROR] [mujoco_ros2_control-1]: process has died [pid 11727, exit code -6, cmd '/home/zjc/openarm_ws/install/mujoco_ros2_control/lib/mujoco_ros2_control/mujoco_ros2_control --ros-args --params-file /tmp/launch_params_gknfn6k6 --params-file /home/zjc/openarm_ws/install/openarm_bringup/share/openarm_bringup/config/v10_controllers/openarm_v10_bimanual_controllers.yaml --params-file /tmp/launch_params_pmphxsz_ --params-file /tmp/launch_params_81ms2f94 --params-file /tmp/launch_params_hx8z7y_x'].
-[INFO] [robot_state_publisher-2]: process has finished cleanly [pid 11729]
-[INFO] [spawner-8]: process has finished cleanly [pid 11847]
-[ERROR] [ros2-9]: process has died [pid 11886, exit code 2, cmd 'ros2 param set /move_group use_sim_time true'].
-[INFO] [spawner-7]: process has finished cleanly [pid 11831]
-[ERROR] [ros2-10]: process has died [pid 11888, exit code 2, cmd 'ros2 param set /move_group use_sim_time true'].
-[rviz2-4] [ERROR] [1768368735.594711837] [moveit_background_processing.background_processing]: Exception caught while processing action 'Frame::changePlanningGroup': std::future_error: Broken promise
-[rviz2-4] [INFO] [1768368735.599447194] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Stopping planning scene monitor
-[openarm_bimanual_viewer-5] Traceback (most recent call last):
-[openarm_bimanual_viewer-5]   File "/home/zjc/openarm_ws/install/openarm_mujoco_viewer/lib/openarm_mujoco_viewer/openarm_bimanual_viewer", line 33, in <module>
-[openarm_bimanual_viewer-5]     sys.exit(load_entry_point('openarm-mujoco-viewer', 'console_scripts', 'openarm_bimanual_viewer')())
-[openarm_bimanual_viewer-5]   File "/home/zjc/openarm_ws/build/openarm_mujoco_viewer/openarm_mujoco_viewer/openarm_bimanual_viewer.py", line 213, in main
-[openarm_bimanual_viewer-5]     rclpy.spin(node)
-[openarm_bimanual_viewer-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 229, in spin
-[openarm_bimanual_viewer-5]     executor.spin_once()
-[openarm_bimanual_viewer-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 773, in spin_once
-[openarm_bimanual_viewer-5]     self._spin_once_impl(timeout_sec)
-[openarm_bimanual_viewer-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 768, in _spin_once_impl
-[openarm_bimanual_viewer-5]     handler()
-[openarm_bimanual_viewer-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/task.py", line 254, in __call__
-[openarm_bimanual_viewer-5]     self._handler.send(None)
-[openarm_bimanual_viewer-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 463, in handler
-[openarm_bimanual_viewer-5]     await call_coroutine(entity, arg)
-[openarm_bimanual_viewer-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 371, in _execute_timer
-[openarm_bimanual_viewer-5]     await await_or_execute(tmr.callback)
-[openarm_bimanual_viewer-5]   File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/executors.py", line 107, in await_or_execute
-[openarm_bimanual_viewer-5]     return callback(*args)
-[openarm_bimanual_viewer-5]   File "/home/zjc/openarm_ws/build/openarm_mujoco_viewer/openarm_mujoco_viewer/openarm_bimanual_viewer.py", line 205, in timer_cb
-[openarm_bimanual_viewer-5]     glfw.swap_buffers(self.window)
-[openarm_bimanual_viewer-5]   File "/home/zjc/.local/lib/python3.10/site-packages/glfw/__init__.py", line 2380, in swap_buffers
-[openarm_bimanual_viewer-5]     _glfw.glfwSwapBuffers(window)
-[openarm_bimanual_viewer-5]   File "/home/zjc/.local/lib/python3.10/site-packages/glfw/__init__.py", line 687, in errcheck
-[openarm_bimanual_viewer-5]     def errcheck(result, *args):
-[openarm_bimanual_viewer-5] KeyboardInterrupt
-[move_group-3] [INFO] [1768368735.615232973] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Stopped publishing maintained planning scene.
-[move_group-3] [INFO] [1768368735.616073568] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Stopping world geometry monitor
-[move_group-3] [INFO] [1768368735.616346230] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Stopping planning scene monitor
+[ERROR] [virtual_camera-10]: process has died [pid 23976, exit code -2, cmd '/home/zjc/openarm_ws/install/openarm_vision/lib/openarm_vision/virtual_camera --ros-args -r __node:=virtual_camera --params-file /tmp/launch_params_t842p86j'].
+[rviz2-4] 
+[rviz2-4] >>> [rcutils|error_handling.c:108] rcutils_set_error_state()
+[rviz2-4] This error state is being overwritten:
+[rviz2-4] 
+[rviz2-4]   'rcl node's context is invalid, at ./src/rcl/node.c:428'
+[rviz2-4] 
+[rviz2-4] with this new error message:
+[rviz2-4] 
+[rviz2-4]   'publisher's context is invalid, at ./src/rcl/publisher.c:389'
+[rviz2-4] 
+[rviz2-4] rcutils_reset_error() should be called after error handling to avoid this.
+[rviz2-4] <<<
+[rviz2-4] [INFO] [1768460791.684920807] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Stopping planning scene monitor
+[INFO] [robot_state_publisher-2]: process has finished cleanly [pid 23823]
+[ERROR] [mujoco_ros2_control-1]: process has died [pid 23821, exit code -6, cmd '/home/zjc/openarm_ws/install/mujoco_ros2_control/lib/mujoco_ros2_control/mujoco_ros2_control --ros-args --params-file /tmp/launch_params_mi2m5b3m --params-file /home/zjc/openarm_ws/install/openarm_bringup/share/openarm_bringup/config/v10_controllers/openarm_v10_bimanual_controllers.yaml --params-file /tmp/launch_params_3044qs5d --params-file /tmp/launch_params_ec1cdttd --params-file /tmp/launch_params_jow9d_zt'].
+[ERROR] [gripper_controller-11]: process has died [pid 24025, exit code 1, cmd '/home/zjc/openarm_ws/install/openarm_grasp_planner/lib/openarm_grasp_planner/gripper_controller --ros-args -r __node:=gripper_controller --params-file /tmp/launch_params_wqhue1z7'].
+[ERROR] [rviz2-4]: process has died [pid 23827, exit code -11, cmd '/opt/ros/humble/lib/rviz2/rviz2 -d /home/zjc/openarm_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/config/moveit.rviz --ros-args --params-file /tmp/launch_params_jzg6_oc3 --params-file /tmp/launch_params_061yu1o2 --params-file /tmp/launch_params_b1x835p4'].
+[ERROR] [grasp_planner-14]: process has died [pid 24049, exit code 1, cmd '/home/zjc/openarm_ws/install/openarm_grasp_planner/lib/openarm_grasp_planner/grasp_planner --ros-args -r __node:=grasp_planner --params-file /tmp/launch_params_o6jc0ubv'].
+[ERROR] [banana_detector-13]: process has died [pid 24047, exit code 1, cmd '/home/zjc/openarm_ws/install/openarm_vision/lib/openarm_vision/banana_detector --ros-args -r __node:=banana_detector --params-file /tmp/launch_params_pcxx3wbf'].
+[ERROR] [full_verification-12]: process has died [pid 24027, exit code 1, cmd '/home/zjc/openarm_ws/install/openarm_grasp_planner/lib/openarm_grasp_planner/full_verification --ros-args -r __node:=full_verification --params-file /tmp/launch_params__f0cxz0v'].
+[move_group-3] [INFO] [1768460791.820471296] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Stopped publishing maintained planning scene.
+[move_group-3] [INFO] [1768460791.821003561] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Stopping world geometry monitor
+[move_group-3] [INFO] [1768460791.821282985] [moveit_ros.planning_scene_monitor.planning_scene_monitor]: Stopping planning scene monitor
 [move_group-3] Warning: class_loader.ClassLoader: SEVERE WARNING!!! Attempting to unload library while objects created by this loader exist in the heap! You should delete your objects before attempting to unload the library or destroying the ClassLoader. The library will NOT be unloaded.
 [move_group-3]          at line 127 in ./src/class_loader.cpp
 [move_group-3] Stack trace (most recent call last):
 [move_group-3] #16   Object "", at 0xffffffffffffffff, in 
-[move_group-3] #15   Object "/opt/ros/humble/lib/moveit_ros_move_group/move_group", at 0x5dd60a5c1724, in 
-[ERROR] [openarm_bimanual_viewer-5]: process has died [pid 11735, exit code -2, cmd '/home/zjc/openarm_ws/install/openarm_mujoco_viewer/lib/openarm_mujoco_viewer/openarm_bimanual_viewer --ros-args --params-file /tmp/launch_params_ux2gdtbr'].
-[move_group-3] #14   Source "../csu/libc-start.c", line 392, in __libc_start_main_impl [0x758ec0c29e3f]
-[move_group-3] #13   Source "../sysdeps/nptl/libc_start_call_main.h", line 58, in __libc_start_call_main [0x758ec0c29d8f]
-[move_group-3] #12   Object "/opt/ros/humble/lib/moveit_ros_move_group/move_group", at 0x5dd60a5c065b, in 
-[move_group-3] #11   Object "/opt/ros/humble/lib/moveit_ros_move_group/move_group", at 0x5dd60a5c2709, in 
-[move_group-3] #10   Object "/opt/ros/humble/lib/libmoveit_cpp.so.2.5.9", at 0x758ec1883876, in moveit_cpp::MoveItCpp::~MoveItCpp()
-[move_group-3] #9    Object "/opt/ros/humble/lib/libmoveit_cpp.so.2.5.9", at 0x758ec1881ba9, in 
-[move_group-3] #8    Object "/opt/ros/humble/lib/libmoveit_trajectory_execution_manager.so.2.5.9", at 0x758ec0b8d495, in trajectory_execution_manager::TrajectoryExecutionManager::~TrajectoryExecutionManager()
-[move_group-3] #7    Object "/opt/ros/humble/lib/libmoveit_trajectory_execution_manager.so.2.5.9", at 0x758ec0ba03a9, in 
-[move_group-3] #6    Object "/opt/ros/humble/lib/librclcpp.so", at 0x758ec14e1eec, in rclcpp::Node::~Node()
-[move_group-3] #5    Object "/opt/ros/humble/lib/librclcpp.so", at 0x758ec14e1e8e, in rclcpp::Node::~Node()
-[move_group-3] #4    Object "/opt/ros/humble/lib/librclcpp.so", at 0x758ec14bcee9, in 
-[move_group-3] #3    Object "/opt/ros/humble/lib/librclcpp.so", at 0x758ec14eb539, in 
-[move_group-3] #2    Object "/opt/ros/humble/lib/librclcpp.so", at 0x758ec14eb480, in rclcpp::node_interfaces::NodeBase::~NodeBase()
-[move_group-3] #1    Object "/opt/ros/humble/lib/librclcpp.so", at 0x758ec14bcee9, in 
-[move_group-3] #0    Object "/opt/ros/humble/lib/librclcpp.so", at 0x758ec14c1da1, in rclcpp::CallbackGroup::~CallbackGroup()
-[move_group-3] Segmentation fault (Address not mapped to object [0x758eaa29d798])
-[ERROR] [rviz2-4]: process has died [pid 11733, exit code -11, cmd '/opt/ros/humble/lib/rviz2/rviz2 -d /home/zjc/openarm_ws/install/openarm_bimanual_moveit_config/share/openarm_bimanual_moveit_config/config/moveit.rviz --ros-args --params-file /tmp/launch_params_mzcs466n --params-file /tmp/launch_params_mqgy73l_ --params-file /tmp/launch_params_y2fpcweo'].
-[ERROR] [move_group-3]: process has died [pid 11731, exit code -11, cmd '/opt/ros/humble/lib/moveit_ros_move_group/move_group --ros-args --params-file /tmp/launch_params_1_sth80c --params-file /tmp/launch_params_ugok4va3'].
+[move_group-3] #15   Object "/opt/ros/humble/lib/moveit_ros_move_group/move_group", at 0x60976d10e724, in 
+[move_group-3] #14   Source "../csu/libc-start.c", line 392, in __libc_start_main_impl [0x7ecd82429e3f]
+[move_group-3] #13   Source "../sysdeps/nptl/libc_start_call_main.h", line 58, in __libc_start_call_main [0x7ecd82429d8f]
+[move_group-3] #12   Object "/opt/ros/humble/lib/moveit_ros_move_group/move_group", at 0x60976d10d65b, in 
+[move_group-3] #11   Object "/opt/ros/humble/lib/moveit_ros_move_group/move_group", at 0x60976d10f709, in 
+[move_group-3] #10   Object "/opt/ros/humble/lib/libmoveit_cpp.so.2.5.9", at 0x7ecd83108876, in moveit_cpp::MoveItCpp::~MoveItCpp()
+[move_group-3] #9    Object "/opt/ros/humble/lib/libmoveit_cpp.so.2.5.9", at 0x7ecd83106ba9, in 
+[move_group-3] #8    Object "/opt/ros/humble/lib/libmoveit_trajectory_execution_manager.so.2.5.9", at 0x7ecd82678495, in trajectory_execution_manager::TrajectoryExecutionManager::~TrajectoryExecutionManager()
+[move_group-3] #7    Object "/opt/ros/humble/lib/libmoveit_trajectory_execution_manager.so.2.5.9", at 0x7ecd8268b3a9, in 
+[move_group-3] #6    Object "/opt/ros/humble/lib/librclcpp.so", at 0x7ecd82d66eec, in rclcpp::Node::~Node()
+[move_group-3] #5    Object "/opt/ros/humble/lib/librclcpp.so", at 0x7ecd82d66e8e, in rclcpp::Node::~Node()
+[move_group-3] #4    Object "/opt/ros/humble/lib/librclcpp.so", at 0x7ecd82d41ee9, in 
+[move_group-3] #3    Object "/opt/ros/humble/lib/librclcpp.so", at 0x7ecd82d70539, in 
+[move_group-3] #2    Object "/opt/ros/humble/lib/librclcpp.so", at 0x7ecd82d70480, in rclcpp::node_interfaces::NodeBase::~NodeBase()
+[move_group-3] #1    Object "/opt/ros/humble/lib/librclcpp.so", at 0x7ecd82d41ee9, in 
+[move_group-3] #0    Object "/opt/ros/humble/lib/librclcpp.so", at 0x7ecd82d46da1, in rclcpp::CallbackGroup::~CallbackGroup()
+[move_group-3] Segmentation fault (Address not mapped to object [0x7ecd535dd798])
+[ERROR] [move_group-3]: process has died [pid 23825, exit code -11, cmd '/opt/ros/humble/lib/moveit_ros_move_group/move_group --ros-args --params-file /tmp/launch_params_2v1ei45a --params-file /tmp/launch_params_uwl2e3mw'].
 [move_group-3] [0m

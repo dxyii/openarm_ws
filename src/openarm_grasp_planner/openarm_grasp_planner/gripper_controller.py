@@ -14,7 +14,7 @@ class GripperController(Node):
         self.gripper_open_position = 0.060  # 夹爪打开位置（手指分开）
         # 夹爪抓取位置：不完全关闭，只关闭到能夹住香蕉的程度（约0.02-0.03米）
         # 香蕉直径约为0.04米，所以关闭到0.03米可以夹住香蕉
-        self.gripper_closed_position = 0.043  # 夹爪抓取位置（能夹住香蕉但不完全关闭）
+        self.gripper_closed_position = 0.0435  # 夹爪抓取位置（能夹住香蕉但不完全关闭）
         self.gripper_max_effort = 100.0  # 最大抓取力（增加以更好地夹住香蕉）
         
         # 创建Action客户端用于控制夹爪（双机械臂版本）
